@@ -1,0 +1,17 @@
+Source: xlights
+Section: graphics
+Priority: optional
+Maintainer: Chris Debenham <chris@adebenham.com>
+Build-Depends: debhelper (>= 9), libgtk2.0-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, freeglut3-dev, libmpg123-dev, libwxgtk-media3.0-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libsdl1.2-dev
+Standards-Version: 3.9.6
+Homepage: http://nutcracker123.com/wk/
+Vcs-Git: git://github.com/smeighan/xLights.git
+Vcs-Browser: https://github.com/smeighan/xLights
+
+Package: xlights
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description:Cross platform Christmas lights sequencer
+    xLights is a Christmas lights sequencer, scheduler and playback engine for
+    use on Windows, MAC or Linux systems. It is capable of playing LOR or
+    Vixen sequences.

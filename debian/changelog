@@ -1,0 +1,16 @@
+xlights (2016.12ubuntu1) wily; urgency=medium
+
+  [ Chris Debenham ]
+  * Update control
+  * Replace INSTALL_DIR with DESTDIR in makefile for linux
+
+  [ sean ]
+  * release 2016.12
+
+ -- Chris Debenham <chris@adebenham.com>  Fri, 11 Mar 2016 13:48:38 +1100
+
+xlights (2016.11) wily; urgency=low
+
+  * Initial Release.
+
+ -- Chris Debenham <chris@adebenham.com>  Thu, 10 Mar 2016 11:08:28 +1100

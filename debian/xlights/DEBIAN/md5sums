@@ -1,0 +1,294 @@
+9799190ce49e759752979de5a4f76425  usr/bin/xLights
+708b120c9b53e8e587b2cd96e5184d20  usr/share/applications/xlights.desktop
+348f7c353633592db0cae271429d8d01  usr/share/doc/xlights/License.txt.gz
+e51deb11fa417976ba0d2f31dc4adfd4  usr/share/doc/xlights/README.corofaces.txt
+acff81de9ea1f9c02eacb367577698a9  usr/share/doc/xlights/README.linux.gz
+4f10d1b064a92d704106a25f63294754  usr/share/doc/xlights/README.txt.gz
+3fa14389e0b6bdb59fea3632c9572b3e  usr/share/doc/xlights/ToolConfig.txt
+ebe2f67399086e2e637504b5b0fc106c  usr/share/doc/xlights/changelog.gz
+59debdce336a3f554cddb8e614cdca9a  usr/share/doc/xlights/copyright
+0e2347d192fcb2a87ffb0dc39405404e  usr/share/icons/hicolor/16x16/apps/xlights.png
+cf7343a2b882a3fe64cebfe402365582  usr/share/icons/hicolor/256x256/apps/xlights.png
+510147aadd6d33010a5906eaf6c25028  usr/share/icons/hicolor/32x32/apps/xlights.png
+eb3084a7c6fa2fb4d0d1acab0180f8c7  usr/share/icons/hicolor/64x64/apps/xlights.png
+82ef2f29c0532f5aaf56d899bec83305  usr/share/xLights/piano/Piano-88KeyShapeMap.txt
+b8ebc07ff9b383fa3a74809e8ad24854  usr/share/xLights/piano/Piano-ExampleFaceMinShapeMap.txt
+f3afc6e02bd509e45532d735fa5af6d5  usr/share/xLights/piano/Piano-ExampleFaceMinShapes.PNG
+892decf9f99441cc6f7081aa28813673  usr/share/xLights/piano/Piano-ExampleKeyEdgeShapes.PNG
+9290cb7fd5971f48e426f05075691652  usr/share/xLights/piano/Piano-ExampleKeyTopShapes.PNG
+c5b595e385ea4e99f38493c775cdee00  usr/share/xLights/piano/Piano-readme.txt
+372cc84cbb040524f7a4cb596024c760  usr/share/xLights/piano/PianoTestNotes.txt
+9c5947b688178ec020b2397801981c5f  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells.txt
+8a6ad4052f8d7f6d52fba020bf93df7a  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells_2bars.txt
+f35a3df9006c3a73bc2598830c6debaf  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells_4bars.txt
+06d66b083db5a074580cb2e8e509a394  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells_bars.txt
+b6095f3527536b97541df24efa8a67bb  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells_beats.txt
+9967ffae2c259d257977641a0866826f  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells_notes.txt
+ef6ccbd50d84c02a856d950665e8043d  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells_onsets.txt
+cc1cbfb5cb7a2b54c8c021b1bb053059  usr/share/xLights/songs/01 - Carol of the Bells/01 - Carol of the Bells_readme.txt
+905812e9832a7895f17295c99785357d  usr/share/xLights/songs/01 - Carol of the Bells/drlucas/carol2.xml
+e401c97ae19a4c648a2f4188dac63701  usr/share/xLights/songs/01 - Dance Of The Sugar Plum Fairy.txt
+a8b197e4f0233f2abf82fc0f13a7a281  usr/share/xLights/songs/01 - Joy To The World/01 - Joy To The World_2bars.txt
+ae3558e135d40e45a783480c50391616  usr/share/xLights/songs/01 - Joy To The World/01 - Joy To The World_4bars.txt
+ff4105dbd928a811e38815595d8aeab7  usr/share/xLights/songs/01 - Joy To The World/01 - Joy To The World_bars.txt
+e4369bbd3ee14c7f7f63da0bc37d31d8  usr/share/xLights/songs/01 - Joy To The World/01 - Joy To The World_beats.txt
+1c6413363f68a2c9c0986b7ebe7a5e71  usr/share/xLights/songs/01 - Joy To The World/01 - Joy To The World_notes.txt
+946d631a9647ff7e16038cb3c49d686b  usr/share/xLights/songs/01 - Joy To The World/01 - Joy To The World_onsets.txt
+a159a7c9cd3167b8900b7d7ca77f8c1f  usr/share/xLights/songs/01 - Joy To The World/01 - Joy To The World_readme.txt
+785739b9353631e18664f96c2301c46e  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street.txt
+f8d526fdc6da1a5ef701554192b8663d  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street_2bars.txt
+6a89905bc6d8bf2b9736ac88a02d2fff  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street_4bars.txt
+51348ec9547532f591d18500f49b25e1  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street_bars.txt
+d23afe9f71f2596be2cebc843f6520ec  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street_beats.txt
+d832a741fbbe4970a21687d29e4191ef  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street_notes.txt
+640de09afbf589dc1fb5ad503dfd5798  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street_onsets.txt
+fe4569766c69268d306286f72af43517  usr/share/xLights/songs/01 - The House On Christmas Street/01 - The House On Christmas Street_readme.txt
+cca41e44a237ed2d99367592541284cf  usr/share/xLights/songs/01-01- Disneys Electrical Parade (Original Version)/01-01- Disneys Electrical Parade (Original Version).txt
+16a562ac4dfe7f29aaa89924c7d6aff0  usr/share/xLights/songs/01-01- Disneys Electrical Parade (Original Version)/01-01- Disneys Electrical Parade (Original Version)_2bars.txt
+55187b12780946f68b408a7c01f62f1e  usr/share/xLights/songs/01-01- Disneys Electrical Parade (Original Version)/01-01- Disneys Electrical Parade (Original Version)_4bars.txt
+da2564c7ba13addb5b296c7841087f2d  usr/share/xLights/songs/01-01- Disneys Electrical Parade (Original Version)/01-01- Disneys Electrical Parade (Original Version)_bars.txt
+e7a466eeef9c7380d61ccf4b3011a95d  usr/share/xLights/songs/01-01- Disneys Electrical Parade (Original Version)/01-01- Disneys Electrical Parade (Original Version)_beats.txt
+2300ad58485f208df3d0bf958fe4b282  usr/share/xLights/songs/01-01- Disneys Electrical Parade (Original Version)/01-01- Disneys Electrical Parade (Original Version)_onsets.txt
+f77da6b3e1ee0d0ce15a40b2dc4dca24  usr/share/xLights/songs/01-01- Disneys Electrical Parade (Original Version)/01-01- Disneys Electrical Parade (Original Version)_readme.txt
+7847a6d9be153315409da0d44acd5676  usr/share/xLights/songs/01-01- Its Beginning To Look A Lot Like Christmas/01-01- Its Beginning To Look A Lot Like Christmas_2bars.txt
+4f91ba24ccd16e252343f84179314c90  usr/share/xLights/songs/01-01- Its Beginning To Look A Lot Like Christmas/01-01- Its Beginning To Look A Lot Like Christmas_4bars.txt
+2123c8213e1e4f17acc391b7874b6cd8  usr/share/xLights/songs/01-01- Its Beginning To Look A Lot Like Christmas/01-01- Its Beginning To Look A Lot Like Christmas_README.txt
+df237248cf8af7d9b91b09bba81d8015  usr/share/xLights/songs/01-01- Its Beginning To Look A Lot Like Christmas/01-01- Its Beginning To Look A Lot Like Christmas_bars.txt
+03e3e2c21195d9d4eaecacb377cdf39e  usr/share/xLights/songs/01-01- Its Beginning To Look A Lot Like Christmas/01-01- Its Beginning To Look A Lot Like Christmas_beats.txt
+d85bf5ade2ea5634126fa440c841d50c  usr/share/xLights/songs/01-01- Its Beginning To Look A Lot Like Christmas/01-01- Its Beginning To Look A Lot Like Christmas_notes.txt
+298c583218320db80f19188188a7e9fe  usr/share/xLights/songs/01-01- Its Beginning To Look A Lot Like Christmas/01-01- Its Beginning To Look A Lot Like Christmas_onsets.txt
+52ff4078112fe3ebf7a4a237ad66ee97  usr/share/xLights/songs/01-01- Sandstorm (Radio Edit)/01-01- Sandstorm (Radio Edit)_2bars.txt
+2c15b856cec50d1709fdf9bc1eaf60f0  usr/share/xLights/songs/01-01- Sandstorm (Radio Edit)/01-01- Sandstorm (Radio Edit)_4bars.txt
+1adff61415eeeb2e5d84b0ea615dda36  usr/share/xLights/songs/01-01- Sandstorm (Radio Edit)/01-01- Sandstorm (Radio Edit)_bars.txt
+4a939c59e5a7391b16f9f1e5f568457b  usr/share/xLights/songs/01-01- Sandstorm (Radio Edit)/01-01- Sandstorm (Radio Edit)_beats.txt
+01e5553f925b71276b032d602a8160e3  usr/share/xLights/songs/01-01- Sandstorm (Radio Edit)/01-01- Sandstorm (Radio Edit)_notes.txt
+11a282660c404796804c12f159813038  usr/share/xLights/songs/01-01- Sandstorm (Radio Edit)/01-01- Sandstorm (Radio Edit)_onsets.txt
+240ddcbfd0c2589ab47d8614e79b7acf  usr/share/xLights/songs/01-01- Sandstorm (Radio Edit)/01-01- Sandstorm (Radio Edit)_readme.txt
+e1dea92e92a3103a0b6cfc5602677d07  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say).txt
+c0e6617590acf12eede8568f5a16888b  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say)_2bars.txt
+433ecd3c3c1f68c24c8674822dc75c49  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say)_4bars.txt
+ee652ed85aa3e2594d2be3740fcd6de6  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say)_bars.txt
+47ff47a8013d33b1921d952c7095fa52  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say)_beats.txt
+49fb4bdc789521a0e5c60a7b3d4519fa  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say)_notes.txt
+d48ac04015e5f2624b14adceb72cf995  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say)_onsets.txt
+8cda5e8ba04c3dbb24879022e71af475  usr/share/xLights/songs/01-01- The Fox (What Does The Fox Say)/01-01- The Fox (What Does The Fox Say)_readme.txt
+fda88d8868e640b2b6beb895be3f29a5  usr/share/xLights/songs/01-02- The Christmas Song (Merry Christmas To You)/01-02- The Christmas Song (Merry Christmas To You)_2bars.txt
+c23e1b05c4b64f36e471fcb05d7ff758  usr/share/xLights/songs/01-02- The Christmas Song (Merry Christmas To You)/01-02- The Christmas Song (Merry Christmas To You)_4bars.txt
+72dbc508ae2baa3729e465c0e68d3c98  usr/share/xLights/songs/01-02- The Christmas Song (Merry Christmas To You)/01-02- The Christmas Song (Merry Christmas To You)_bars.txt
+37e9b43dcb0080ef70cbab64ed2e7f9c  usr/share/xLights/songs/01-02- The Christmas Song (Merry Christmas To You)/01-02- The Christmas Song (Merry Christmas To You)_beats.txt
+e3f7090139d030aa75d286fcaeb92d3f  usr/share/xLights/songs/01-02- The Christmas Song (Merry Christmas To You)/01-02- The Christmas Song (Merry Christmas To You)_notes.txt
+2404cfe8f869610d97961191aeabdbf7  usr/share/xLights/songs/01-02- The Christmas Song (Merry Christmas To You)/01-02- The Christmas Song (Merry Christmas To You)_onsets.txt
+8b53bc3ef83d965fe3c50d645088a10b  usr/share/xLights/songs/01-02- The Christmas Song (Merry Christmas To You)/01-02- The Christmas Song (Merry Christmas To You)_readme.txt
+f3a0a4297131c4f553650f4cb613d099  usr/share/xLights/songs/01-03- (It Mustve Been Ol) Santa Claus/01-03- (It Mustve Been Ol) Santa Claus_2bars.txt
+640ff915be7306d294e7c1f9ee17047f  usr/share/xLights/songs/01-03- (It Mustve Been Ol) Santa Claus/01-03- (It Mustve Been Ol) Santa Claus_4bars.txt
+0270322cbcc7cb7f44c7e4e225aea3cd  usr/share/xLights/songs/01-03- (It Mustve Been Ol) Santa Claus/01-03- (It Mustve Been Ol) Santa Claus_bars.txt
+fdef669ddc6896f3f6816712c7e00430  usr/share/xLights/songs/01-03- (It Mustve Been Ol) Santa Claus/01-03- (It Mustve Been Ol) Santa Claus_beats.txt
+34f5161bca3b286cd99baeb8d58247d8  usr/share/xLights/songs/01-03- (It Mustve Been Ol) Santa Claus/01-03- (It Mustve Been Ol) Santa Claus_notes.txt
+8c8aba4298e30f2d2506cc86d53e3fdf  usr/share/xLights/songs/01-03- (It Mustve Been Ol) Santa Claus/01-03- (It Mustve Been Ol) Santa Claus_onsets.txt
+f18a4566b27ee71b2c9fb1f85c117336  usr/share/xLights/songs/01-03- (It Mustve Been Ol) Santa Claus/01-03- (It Mustve Been Ol) Santa Claus_readme.txt
+06e64cb14579edbbb724f9159e6ab00b  usr/share/xLights/songs/01-03- Carol Of The Bells/01-03- Carol Of The Bells_2bars.txt
+e90cf42b99d00aa29329b7e62fa9a993  usr/share/xLights/songs/01-03- Carol Of The Bells/01-03- Carol Of The Bells_4bars.txt
+c08468224f4243b4e9313bb06449d7fc  usr/share/xLights/songs/01-03- Carol Of The Bells/01-03- Carol Of The Bells_bars.txt
+a4bc1d77a2d23a962fa62fbb2c396166  usr/share/xLights/songs/01-03- Carol Of The Bells/01-03- Carol Of The Bells_beats.txt
+870704e2aec48859c717082db06c3e10  usr/share/xLights/songs/01-03- Carol Of The Bells/01-03- Carol Of The Bells_notes.txt
+ee3e031d95b68912a68b53a89d5a8cea  usr/share/xLights/songs/01-03- Carol Of The Bells/01-03- Carol Of The Bells_onsets.txt
+5a2fb019437942e1232afc4d6fd11899  usr/share/xLights/songs/01-03- Carol Of The Bells/01-03- Carol Of The Bells_readme.txt
+65f36069dda692bd5610edc3f9584655  usr/share/xLights/songs/01-03- Carol Of The Bells/keebler/CAROL OF THE BELLS.xml
+2199bf02596b37c546f7031d71742639  usr/share/xLights/songs/01-04- Its The Most Wonderful Time Of The Year/01-04- Its The Most Wonderful Time Of The Year_2bars.txt
+10edeaf36bc0571ac99e06a6d1539e5a  usr/share/xLights/songs/01-04- Its The Most Wonderful Time Of The Year/01-04- Its The Most Wonderful Time Of The Year_4bars.txt
+7ac013525a736419bdde373dccf20353  usr/share/xLights/songs/01-04- Its The Most Wonderful Time Of The Year/01-04- Its The Most Wonderful Time Of The Year_README.txt
+5e59eca5f14f80b68870f6d23b1264cd  usr/share/xLights/songs/01-04- Its The Most Wonderful Time Of The Year/01-04- Its The Most Wonderful Time Of The Year_bars.txt
+d304165156dfa1cb9bc2efac9156a01b  usr/share/xLights/songs/01-04- Its The Most Wonderful Time Of The Year/01-04- Its The Most Wonderful Time Of The Year_beats.txt
+22d20c2e22d3548fb7af5a8bf5d10e4c  usr/share/xLights/songs/01-04- Its The Most Wonderful Time Of The Year/01-04- Its The Most Wonderful Time Of The Year_notes.txt
+a829b981fe0a020e628e4b074dd39918  usr/share/xLights/songs/01-04- Its The Most Wonderful Time Of The Year/01-04- Its The Most Wonderful Time Of The Year_onsets.txt
+22db40af39675256f1d50f02ca637839  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy.txt
+c3269c40833f9be956196ed5620ec6a0  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy.xml
+9feb32f431848ad60f111a57974579e2  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy_2bars.txt
+f66896b569846eba5bdb37f44cf0a74c  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy_4bars.txt
+0074ccbcb49ec3a0a90c5f0ab8282d0d  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy_bars.txt
+dc2c729dee8d0e8c50121928d50f2979  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy_beats.txt
+5c6e15ec1914993b7fae9069c34963f3  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy_notes.txt
+a42c51f71a7f79e3c5954306282edf0f  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy_onsets.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/share/xLights/songs/01-04- Linus And Lucy/01-04- Linus And Lucy_readme.txt
+c3d3957cdaf77f17543104d3d1692cc0  usr/share/xLights/songs/01-04- Pour Elise (State Of Trance Remix)/01-04- Pour Elise (State Of Trance Remix)_2bars.txt
+7c7ca11d0716950034e873450e43664b  usr/share/xLights/songs/01-04- Pour Elise (State Of Trance Remix)/01-04- Pour Elise (State Of Trance Remix)_4bars.txt
+9fe375828591606ee64ab980db64ed9f  usr/share/xLights/songs/01-04- Pour Elise (State Of Trance Remix)/01-04- Pour Elise (State Of Trance Remix)_bars.txt
+24c5107fcdc817c50c75ce690217e391  usr/share/xLights/songs/01-04- Pour Elise (State Of Trance Remix)/01-04- Pour Elise (State Of Trance Remix)_beats.txt
+9af92bb2b1d109dce2ee3336a529b3e8  usr/share/xLights/songs/01-04- Pour Elise (State Of Trance Remix)/01-04- Pour Elise (State Of Trance Remix)_notes.txt
+a47c22a7913c5d4542c6929f3a4d23fd  usr/share/xLights/songs/01-04- Pour Elise (State Of Trance Remix)/01-04- Pour Elise (State Of Trance Remix)_onsets.txt
+4deaf2663d5721d1259e404c384b6f06  usr/share/xLights/songs/01-04- Pour Elise (State Of Trance Remix)/01-04- Pour Elise (State Of Trance Remix)_readme.txt
+ca30d8a2bb5b9a13793e05bc11c28343  usr/share/xLights/songs/01-04- Sleigh Ride (Album Version)/01-04- Sleigh Ride (Album Version)_2bars.txt
+75caa5f509d86d5ebaac0d39669557fb  usr/share/xLights/songs/01-04- Sleigh Ride (Album Version)/01-04- Sleigh Ride (Album Version)_4bars.txt
+5a3456b3a2165bd163f4112aceba4b77  usr/share/xLights/songs/01-04- Sleigh Ride (Album Version)/01-04- Sleigh Ride (Album Version)_bars.txt
+d18493a4d9a1b6646565af72fbbb206e  usr/share/xLights/songs/01-04- Sleigh Ride (Album Version)/01-04- Sleigh Ride (Album Version)_beats.txt
+f9771e39b9245ed1556e70d2e06c83e8  usr/share/xLights/songs/01-04- Sleigh Ride (Album Version)/01-04- Sleigh Ride (Album Version)_notes.txt
+0f071cdadcde399b6984badb66f0e194  usr/share/xLights/songs/01-04- Sleigh Ride (Album Version)/01-04- Sleigh Ride (Album Version)_onsets.txt
+d6088707dcee9b9ea4aaab7a8e7273d1  usr/share/xLights/songs/01-04- Sleigh Ride (Album Version)/01-04- Sleigh Ride (Album Version)_readme.txt
+af583ab491ca0f3a698c2941a2878a8f  usr/share/xLights/songs/01-06- 12 Days of Christmas/01-06- 12 Days of Christmas_2bars.txt
+e4c01f0407fd7685991f2d4303e8ed44  usr/share/xLights/songs/01-06- 12 Days of Christmas/01-06- 12 Days of Christmas_4bars.txt
+dce2bcbc95554ebdd31e8938e08f61f2  usr/share/xLights/songs/01-06- 12 Days of Christmas/01-06- 12 Days of Christmas_bars.txt
+5ac07c3f1caa38fb954b8cb04cca13af  usr/share/xLights/songs/01-06- 12 Days of Christmas/01-06- 12 Days of Christmas_beats.txt
+7a860d936a4d7211c7b9abd4f753a50e  usr/share/xLights/songs/01-06- 12 Days of Christmas/01-06- 12 Days of Christmas_notes.txt
+5012cc3dd2e5a4c6a9185886885a3a0a  usr/share/xLights/songs/01-06- 12 Days of Christmas/01-06- 12 Days of Christmas_onsets.txt
+567881bb111c849cc8801a63ca2bee0f  usr/share/xLights/songs/01-06- 12 Days of Christmas/01-06- 12 Days of Christmas_readme.txt
+a6a644d80b3c86fed3d3deb75f286ecb  usr/share/xLights/songs/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)_2bars.txt
+b9d934a3f8370f13e181131af9a534e5  usr/share/xLights/songs/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)_4bars.txt
+cb171ffe163f0f7ff24a99ec672a0d4e  usr/share/xLights/songs/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)_bars.txt
+cf05f52347e2038939e152e96ec8bf05  usr/share/xLights/songs/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)_beats.txt
+1e9fdd2067ec185d15f2dae0975e5751  usr/share/xLights/songs/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)_notes.txt
+84920a50b9e7f44a4810adb10fc441ec  usr/share/xLights/songs/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)_onsets.txt
+245c267502a35a9903930e46625c86ba  usr/share/xLights/songs/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)/01-06- Have Yourself A Merry Little Christmas (1999 - Remaster)_readme.txt
+c32879fddffe6d5cefdcbd2bd9b7d56a  usr/share/xLights/songs/01-07- Let it snow! Let it snow! Let it snow!/01-07- Let it snow! Let it snow! Let it snow!_2bars.txt
+704735a7c112f60e2628a614d070ced7  usr/share/xLights/songs/01-07- Let it snow! Let it snow! Let it snow!/01-07- Let it snow! Let it snow! Let it snow!_4bars.txt
+da03236edc68b32b107df1574738e575  usr/share/xLights/songs/01-07- Let it snow! Let it snow! Let it snow!/01-07- Let it snow! Let it snow! Let it snow!_bars.txt
+3620a38c962d6bd4c4e85dee51e89af6  usr/share/xLights/songs/01-07- Let it snow! Let it snow! Let it snow!/01-07- Let it snow! Let it snow! Let it snow!_beats.txt
+9e669959c2f955c4599202af82adffdc  usr/share/xLights/songs/01-07- Let it snow! Let it snow! Let it snow!/01-07- Let it snow! Let it snow! Let it snow!_notes.txt
+897b757eec39d96f21a707bd99ed945c  usr/share/xLights/songs/01-07- Let it snow! Let it snow! Let it snow!/01-07- Let it snow! Let it snow! Let it snow!_onsets.txt
+e2d1a5a63a3968fd00df23deff22a9d7  usr/share/xLights/songs/01-07- Let it snow! Let it snow! Let it snow!/01-07- Let it snow! Let it snow! Let it snow!_readme.txt
+487e8d33f512d5218bfe18fb4d13e8dc  usr/share/xLights/songs/01-12- Sleigh Ride (2004 Digital Remaster)/01-12- Sleigh Ride (2004 Digital Remaster)_2bars.txt
+74e8f62ce4a3d9e234ef72836d268461  usr/share/xLights/songs/01-12- Sleigh Ride (2004 Digital Remaster)/01-12- Sleigh Ride (2004 Digital Remaster)_4bars.txt
+39f03f7c5cfaa9dc79f6807aa677c5aa  usr/share/xLights/songs/01-12- Sleigh Ride (2004 Digital Remaster)/01-12- Sleigh Ride (2004 Digital Remaster)_bars.txt
+41eab162d08431976aa493e2efca62d1  usr/share/xLights/songs/01-15- The 12 Days Of Christmas/01-15- The 12 Days Of Christmas_2bars.txt
+01ba35679cccb74d85769d13d6772c45  usr/share/xLights/songs/01-15- The 12 Days Of Christmas/01-15- The 12 Days Of Christmas_4bars.txt
+7300f705a64a2f4d8b4f58008615d3e4  usr/share/xLights/songs/01-15- The 12 Days Of Christmas/01-15- The 12 Days Of Christmas_bars.txt
+ca8d69e65dc2446ac14c85f210807c2a  usr/share/xLights/songs/01-15- The 12 Days Of Christmas/01-15- The 12 Days Of Christmas_beats.txt
+fe49cc265df84354c091cbd0a014b647  usr/share/xLights/songs/01-15- The 12 Days Of Christmas/01-15- The 12 Days Of Christmas_notes.txt
+aae8111bc049d666c1a588289841ccee  usr/share/xLights/songs/01-15- The 12 Days Of Christmas/01-15- The 12 Days Of Christmas_onsets.txt
+6eee59db303f6da16031b97f6bd2946a  usr/share/xLights/songs/01-15- The 12 Days Of Christmas/01-15- The 12 Days Of Christmas_readme.txt
+a610c73b52d38a1e59191712c4c9898d  usr/share/xLights/songs/02 - Music Box Dancer (Radio Version)/02 - Music Box Dancer (Radio Version).txt
+2eb012b70ae3424fbdb95464324acdb5  usr/share/xLights/songs/02 - Music Box Dancer (Radio Version)/02 - Music Box Dancer (Radio Version)_2bars.txt
+818a04a473f90869a7e9b7ca70dde38d  usr/share/xLights/songs/02 - Music Box Dancer (Radio Version)/02 - Music Box Dancer (Radio Version)_4bars.txt
+70a12fe664c9a6fe26124d6f2563320f  usr/share/xLights/songs/02 - Music Box Dancer (Radio Version)/02 - Music Box Dancer (Radio Version)_bars.txt
+692ebce836fddb8696266e19ee6c319c  usr/share/xLights/songs/02 - Music Box Dancer (Radio Version)/02 - Music Box Dancer (Radio Version)_beats.txt
+0f974b7ef90fed77a74f48e0458b3ef8  usr/share/xLights/songs/02 - Music Box Dancer (Radio Version)/02 - Music Box Dancer (Radio Version)_notes.txt
+b936db3f3085d7f83b42390479b5fa7a  usr/share/xLights/songs/02 - Music Box Dancer (Radio Version)/02 - Music Box Dancer (Radio Version)_readme.txt
+2a072629d0937e2045eb719d2aa02f9b  usr/share/xLights/songs/04 - Baby, It's Cold Outside (Glee Cast Version)/04 - Baby, It's Cold Outside (Glee Cast Version)_2bars.txt
+6c2cb563b6c1368ca5331ca08fdc894d  usr/share/xLights/songs/04 - Baby, It's Cold Outside (Glee Cast Version)/04 - Baby, It's Cold Outside (Glee Cast Version)_4bars.txt
+ea4925b22413cf887ea40a9da9ee786d  usr/share/xLights/songs/04 - Baby, It's Cold Outside (Glee Cast Version)/04 - Baby, It's Cold Outside (Glee Cast Version)_bars.txt
+9abcfefe1cce77a17528159c10310d81  usr/share/xLights/songs/04 - Baby, It's Cold Outside (Glee Cast Version)/04 - Baby, It's Cold Outside (Glee Cast Version)_beats.txt
+190bfcb29e304f595646492495ac55e6  usr/share/xLights/songs/04 - Baby, It's Cold Outside (Glee Cast Version)/04 - Baby, It's Cold Outside (Glee Cast Version)_notes.txt
+5850f60de6901ab0c8ca1c48f9391040  usr/share/xLights/songs/04 - Baby, It's Cold Outside (Glee Cast Version)/04 - Baby, It's Cold Outside (Glee Cast Version)_onsets.txt
+50ea41c9ef84cfe3a7b7991f2b85bb7e  usr/share/xLights/songs/04 - Baby, It's Cold Outside (Glee Cast Version)/04 - Baby, It's Cold Outside (Glee Cast Version)_readme.txt
+10db7ce910b26ad63d911469e63363d1  usr/share/xLights/songs/04 - White Christmas (Duet With Shania Twain)/04 - White Christmas (Duet With Shania Twain)_2bars.txt
+ee10b2f8a5ef3c4429011c06f9e2fbc4  usr/share/xLights/songs/04 - White Christmas (Duet With Shania Twain)/04 - White Christmas (Duet With Shania Twain)_4bars.txt
+8c2e8deb5757050cc6ce8b57e00b2eb9  usr/share/xLights/songs/04 - White Christmas (Duet With Shania Twain)/04 - White Christmas (Duet With Shania Twain)_bars.txt
+4b11336e9f46ce87913b35a00246bef1  usr/share/xLights/songs/04 - White Christmas (Duet With Shania Twain)/04 - White Christmas (Duet With Shania Twain)_beats.txt
+551dfa3b777d3f998f1d2e931094680b  usr/share/xLights/songs/04 - White Christmas (Duet With Shania Twain)/04 - White Christmas (Duet With Shania Twain)_notes.txt
+6e93e0268cb0c949034bd6687a47d0cc  usr/share/xLights/songs/04 - White Christmas (Duet With Shania Twain)/04 - White Christmas (Duet With Shania Twain)_onsets.txt
+579148b485e1c632f557e0530414a1c0  usr/share/xLights/songs/04 - White Christmas (Duet With Shania Twain)/04 - White Christmas (Duet With Shania Twain)_readme.txt
+7e5aa7be401493a6b7bd39b89240df89  usr/share/xLights/songs/04 - Wizards In Winter (Instrumental)/04 - Wizards In Winter (Instrumental)_2bars.txt
+86a29ad05bd62b6c6d6abb71cf104ba5  usr/share/xLights/songs/04 - Wizards In Winter (Instrumental)/04 - Wizards In Winter (Instrumental)_4bars.txt
+2cc2463df2098bd31290b03c45481db5  usr/share/xLights/songs/04 - Wizards In Winter (Instrumental)/04 - Wizards In Winter (Instrumental)_bars.txt
+1222759fa0b3ed2a5b326174827cad4f  usr/share/xLights/songs/04 - Wizards In Winter (Instrumental)/04 - Wizards In Winter (Instrumental)_beats.txt
+c866a773bd429ac7e4608f5fe60ac3eb  usr/share/xLights/songs/04 - Wizards In Winter (Instrumental)/04 - Wizards In Winter (Instrumental)_notes.txt
+f017accab6a943b474eb72d9e2f6668e  usr/share/xLights/songs/04 - Wizards In Winter (Instrumental)/04 - Wizards In Winter (Instrumental)_onsets.txt
+1c09a1275b7b1e0a4314333a566ecc6b  usr/share/xLights/songs/04 - You're A Mean One, Mr. Grinch/04 - You're A Mean One, Mr. Grinch_2bars.txt
+a66b8a6e88212d50ce8ae74c5ec457d9  usr/share/xLights/songs/04 - You're A Mean One, Mr. Grinch/04 - You're A Mean One, Mr. Grinch_4bars.txt
+9058ea5ff05aa0ee2cc87f5f0eea0695  usr/share/xLights/songs/04 - You're A Mean One, Mr. Grinch/04 - You're A Mean One, Mr. Grinch_bars.txt
+6bf463272dbf8fb26e6641b8b7a4da4a  usr/share/xLights/songs/04 - You're A Mean One, Mr. Grinch/04 - You're A Mean One, Mr. Grinch_beats.txt
+e7e5ff11e8b0be89145c7afc549d043b  usr/share/xLights/songs/04 - You're A Mean One, Mr. Grinch/04 - You're A Mean One, Mr. Grinch_onsets.txt
+46ba38c5c97d99ea5a9ab751232d07da  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental).txt
+47e885e6d55fa966b2a330e735131a17  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental)_2bars.txt
+22ff4b774dabec5a620494ebfcca186a  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental)_4bars.txt
+92e8e88f04eed092a57dbc7e2a723163  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental)_bars.txt
+92e8e88f04eed092a57dbc7e2a723163  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental)_beats.txt
+18e0be4d359cc7f89ddfab651f403bf0  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental)_notes.txt
+da1486fab3393328972b547e5e7be5e1  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental)_onsets.txt
+171c8b4cac919008b5a2d612d61be8c9  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/06 - A Mad Russian's Christmas (Instrumental)_readme.txt
+fbc808e01ed932524712c879f44ed3c5  usr/share/xLights/songs/06 - A Mad Russian's Christmas (Instrumental)/drlucas/madrussian.xml
+62bf1c9c697cc39fc122d83e4361590f  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version).txt
+4cd79825bf9b4647cd63603402fcf679  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version).xml
+bfde64d20bea240febfa6d3c95fbc13a  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version)_2bars.txt
+05763b260c31320830a9f0b706671b59  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version)_4bars.txt
+9426c30908811d7b76dcb9caeeed7048  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version)_bars.txt
+edf203ff29dbf9fa13f737e98dd83fc5  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version)_beats.txt
+2b5797f64ea84c2c5fa2dcd961043108  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version)_notes.txt
+b41f764b25f342100a53553cf763beda  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version)_onsets.txt
+8d85b2052385cc6a6cbb41d044217a88  usr/share/xLights/songs/07 - Amazing Grace (2008 Party Version)/07 - Amazing Grace (2008 Party Version)_readme.txt
+b420c689413f420b3d7162a97a7bd648  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon.txt
+5b7df1e70ab5298c6270ab7d78a338d5  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon.xml
+b25d1bcf965f18f40415a3fd969adbd5  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon_2bars.txt
+935a4fbcf89683ded4a2806cca0ea74e  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon_4bars.txt
+2590c374d3684770aa27a5e1357e35ce  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon_bars.txt
+2dc4c8688b0dc00e61e1b1b989928d8b  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon_beats.txt
+b3304dba9a032ed11ce35c81c11288b0  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon_notes.txt
+84543b5108b7dd3700e83a93b81e8da3  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon_onsets.txt
+df266336b1f9e75ac7a00c58f52c8992  usr/share/xLights/songs/08 - Christmas Canon/08 - Christmas Canon_readme.txt
+dcea9271a9fe1197efe4b2a80e554fca  usr/share/xLights/songs/08 - Christmas Song (Chestnuts Roasting On An Open Fire)/08 - Christmas Song (Chestnuts Roasting On An Open Fire)_2bars.txt
+37642f48bcd812aabe255110c4b5228e  usr/share/xLights/songs/08 - Christmas Song (Chestnuts Roasting On An Open Fire)/08 - Christmas Song (Chestnuts Roasting On An Open Fire)_4bars.txt
+bb4e3fde474d9c163aac9c7ec72e5f75  usr/share/xLights/songs/08 - Christmas Song (Chestnuts Roasting On An Open Fire)/08 - Christmas Song (Chestnuts Roasting On An Open Fire)_bars.txt
+a2e9b3fa653e321289b7cc780c0348fc  usr/share/xLights/songs/08 - Christmas Song (Chestnuts Roasting On An Open Fire)/08 - Christmas Song (Chestnuts Roasting On An Open Fire)_beats.txt
+a73c24e7fac85ec54888701d598a959f  usr/share/xLights/songs/08 - Christmas Song (Chestnuts Roasting On An Open Fire)/08 - Christmas Song (Chestnuts Roasting On An Open Fire)_onsets.txt
+99e487cf872094f85b117ca4936b4363  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental).txt
+24c4a542f06aec4bcda9a82a819a58dd  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental)_2bars.txt
+e462eb54f8ad0d6cf79a00adcaeb26e9  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental)_4bars.txt
+afe82a933948d495d04beb8705be41b6  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental)_bars.txt
+63b087d41af86a94d055ab9b21a9ae56  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental)_beats.txt
+a0b5c4ee4cdcba0a63e1feaf1b9ebb92  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental)_notes.txt
+f50dc5027f71d53499567c205f81898c  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental)_onsets.txt
+d652f747df8dfcd8c63e83b26bc80fc9  usr/share/xLights/songs/08 - Christmas_ Sarajevo 12_24 (Instrumental)/08 - Christmas_ Sarajevo 12_24 (Instrumental)_readme.txt
+7abdc62219e3d454f783b054e73134a1  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version).xml
+23dc6eeaa6e808b45fbc21a846678a2d  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version)_2bars.txt
+37d41dc8960dd7200437862b938205f8  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version)_4bars.txt
+af2d0d07280d2f6741145d441c2dc2de  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version)_bars.txt
+79ee047ae6aaecec7ea80fece19fd39a  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version)_beats.txt
+38408548105f20a4c2613e2160e820a4  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version)_notes.txt
+b430b5ffd368c87ccdfd2c54c539221d  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version)_onsets.txt
+1ad204285d89d26cffaef9f7c927d701  usr/share/xLights/songs/08 - Queen Of The Winter Night (Album Version)/08 - Queen Of The Winter Night (Album Version)_readme.txt
+e2be96f3db9f536be80c8af0cf7438a5  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental).txt
+3475dbb83734f01041d0dc97895d72b3  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental).xml
+92930f4939e429d36e6cf611b7dbb479  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental)_2bars.txt
+af5acdcede1da016b493bc4b145b8b7f  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental)_4bars.txt
+8283113472cee93013b583bb865621a2  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental)_bars.txt
+ecaf3aadbf106d78f6f693163d80bd21  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental)_beats.txt
+12595b91fb0aefab4a9c44ed31dc30cf  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental)_notes.txt
+0b9b8e58968b8ad9ae6c7c532404b9f3  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental)_onsets.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/share/xLights/songs/09 - Carol Of The Bells (Instrumental)/09 - Carol Of The Bells (Instrumental)_readme.txt
+94d632c8013e914ce786ad85b5b3d31f  usr/share/xLights/songs/09 - Overture From Miracle On 34th Street/09 - Overture From Miracle On 34th Street_2bars.txt
+2727f7414fdb802aafc259a80352d070  usr/share/xLights/songs/09 - Overture From Miracle On 34th Street/09 - Overture From Miracle On 34th Street_4bars.txt
+02564eb48cc3ee0216347afa6fba89c5  usr/share/xLights/songs/09 - Overture From Miracle On 34th Street/09 - Overture From Miracle On 34th Street_bars.txt
+c7711405681312c57c0bceb5bd90a39e  usr/share/xLights/songs/09 - Overture From Miracle On 34th Street/09 - Overture From Miracle On 34th Street_beats.txt
+f3b2cd409fe70e8105d5a44b3c15d6b1  usr/share/xLights/songs/09 - Overture From Miracle On 34th Street/09 - Overture From Miracle On 34th Street_notes.txt
+e236c710954efe0acd56d8dbd48344de  usr/share/xLights/songs/09 - Overture From Miracle On 34th Street/09 - Overture From Miracle On 34th Street_onsets.txt
+70900d5427a879cca3167a65981db4e8  usr/share/xLights/songs/09 - Overture From Miracle On 34th Street/09 - Overture From Miracle On 34th Street_readme.txt
+d1b42ebd1554df92e933bbccf9714dec  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You.txt
+cff55e83cd287c85629a61c8a2f1e109  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You_2bars.txt
+0b2bdc09d0cc2a47dc40abd41552fe7c  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You_4bars.txt
+560a5df53beaf769dfeb832f9676b4f3  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You_bars.txt
+a4b07453e908d32465a445cde9d09136  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You_beats.txt
+197e695d0f57f8ab8f9b1f0efc065d29  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You_notes.txt
+39a096fe8a558bb36d9a895febd61d57  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You_onsets.txt
+ba0eba87c52deea5331ff3bccf66df75  usr/share/xLights/songs/12 - All I Want For Christmas Is You/12 - All I Want For Christmas Is You_readme.txt
+d03bc9ef40aa64331eb1134f7a0b0b0f  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock.txt
+051996f6612e30ed69e45ff5800ad012  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock_2bars.txt
+6c3bb31dfaaf0da595238ff51ba6b505  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock_4bars.txt
+642a2ebf6236c2fe2814e04b68cb1342  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock_bars.txt
+e535079a090c930a202e0dd97fab42db  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock_beats.txt
+9f010ad23d347cec729789aeb75d3439  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock_notes.txt
+a0c791efbafdad8c952d3770e84bb526  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock_onsets.txt
+e6a32b33c54a077b1884525ea278e32a  usr/share/xLights/songs/21 - Christmas Canon Rock/21 - Christmas Canon Rock_readme.txt
+48e98e8152343e099bf3f8957c37a840  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker.txt
+46c6a2ee191e883140fec644d3498bd4  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker_2bars.txt
+7c29b07c6e1d0c659fcf4cccfbed50fd  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker_4bars.txt
+f1ab5b24eccafb6f0499f87fd7609990  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker_bars.txt
+9888c665efb9c83712c448eda1586c2c  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker_beats.txt
+638afa4ea1c0ef95d8344aa85b33ef70  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker_notes.txt
+7a9fe1a4dc48ef4a48536b56ee115bc3  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker_onsets.txt
+33c3ccad6cddafa1c6f54ef21e87a052  usr/share/xLights/songs/24 - Nutrocker/24 - Nutrocker_readme.txt
+c6b5ccb225316c63fd10cc58942afc43  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear.txt
+013a341d29272b3980b9fa2788e16abb  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear_2bars.txt
+b3a87c4a35dd644387a67f482b494c06  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear_4bars.txt
+657711c07a6f1662421c177304eeb4bb  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear_bars.txt
+b581ed7ebab552cc0009e0d9813f622e  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear_beats.txt
+f241390666ea47adfd7ad99fa5943eb6  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear_notes.txt
+685361fb536db402202017db415a134f  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear_onsets.txt
+c9bfd1c3b36b8d530aa9c31aba8b5b4c  usr/share/xLights/songs/Do You Hear What I Hear/Do You Hear What I Hear_readme.txt
+e7bf7cbee7319416758f192d993074be  usr/share/xLights/songs/Monster Mash phrases.txt
+d01b860cc21b08f683f0797ed0f53999  usr/share/xLights/songs/README_SONGS.txt
+5a324aae5b15270b5c3d4bd10c8b535f  usr/share/xLights/songs/Snow Miser - Heat Miser/Snow Miser - Heat Miser_2bars.txt
+2ac1fe131dd61f89ca3566bb61eb3c14  usr/share/xLights/songs/Snow Miser - Heat Miser/Snow Miser - Heat Miser_4bars.txt
+ad50d39280667d9bbe11ed0c033008a9  usr/share/xLights/songs/Snow Miser - Heat Miser/Snow Miser - Heat Miser_bars.txt
+d2c7c9be5a41d2f7acd77a4c98fdb634  usr/share/xLights/songs/bars.awk
+020afd219d7308105942300d8a434182  usr/share/xLights/songs/bars.bat
+97a073f06ce8dd0e57ea7a537e679887  usr/share/xLights/songs/bars4.awk
+bd759b8e5cc22354434789934b4979c6  usr/share/xLights/songs/run_bars.bat
