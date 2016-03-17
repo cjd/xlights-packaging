@@ -2,7 +2,7 @@ Source: xlights
 Section: graphics
 Priority: optional
 Maintainer: Chris Debenham <chris@adebenham.com>
-Build-Depends: debhelper (>= 9), libgtk2.0-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, freeglut3-dev, libmpg123-dev, libwxgtk-media3.0-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libsdl1.2-dev
+Build-Depends: debhelper (>= 9), libgtk2.0-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, freeglut3-dev, libmpg123-dev, libwxgtk-media3.0-dev, libavcodec-dev, libavformat-dev, libswscale-dev, libsdl1.2-dev, libswresample-dev, liblog4cpp5-dev
 Standards-Version: 3.9.6
 Homepage: http://nutcracker123.com/wk/
 Vcs-Git: git://github.com/smeighan/xLights.git
