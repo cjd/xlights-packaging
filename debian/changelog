@@ -1,3 +1,12 @@
+xlights (2016.17) wily; urgency=medium
+  * bug (dkulp) Fix text effect on Windows
+  * bug (dkulp) Fix single lines that are 1 channel/string with multiple lights
+  * bug (dkulp) Fix circle radius
+  * bug (keithsw) Add true cancel when mis-loading a sequence when in wrong folder ...  what it actually does is just delete all models that dont exist ...  you should then not save the sequence.
+  * enh (sean) Added "bin/xlights.windows.properties" to installation script per Keith's request
+
+ -- Chris Debenham <chris@adebenham.com>  Tue, 5 Apr 2016 13:48:38 +1100
+
 xlights (2016.14) wily; urgency=medium
 
   * release 2016.14
