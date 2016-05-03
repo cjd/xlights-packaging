@@ -1,3 +1,63 @@
+xlights (2016.23) wily; urgency=medium
+  * bug (gil)   Fix Copy Row/Paste Row when vertically scrolled. Fixes #553.
+  * bug (gil)   Fix application losing focusing when closing a floating panel.
+  * enh (gil)   Reposition view when playback starts or loops so that play marker is visible.  Fixes #550.
+  * enh (gil)   Paste modifications for how single effects paste in various situations.  Fixes #549.
+  * bug (dkulp) Add rename button to groups dialog.  Fixes #548
+  * bug (dkulp) Fix blur setting when clicking on effects. Fixes #547
+  * bug (dkulp) Reset status bar and refresh previews on file close.  Fixes #552
+  * bug (dkulp) Only redirect the menu items that need redirecting
+
+ -- Chris Debenham <chris@adebenham.com>  Sun, 1 May 2016 12:00:00 +1000
+
+xlights (2016.22) wily; urgency=medium
+  * bug (gil)     Fix bug where SingleLine model wouldn't draw when set to
+                       3 Channel RGB and controller on right.  Fixes #525.
+  * bug (gil)     Fix so playback works after an XML file import.  Fixes #535.
+  * bug (gil)     Fix SuperStar import to work with horizontal layouts.  Fixes #537.
+  * bug (keithsw) Fix bug in music effect not working unless at the start of the song
+  * enh (keithsw) Add video acceleration and slow down so video fully plays in time periods
+                      different to their actual length
+  * bug (keithsw) Fix sensitivity bug in music effect
+  * bug (keithsw) Fix spectrograms wider than the model
+  * bug (keithsw) Similar fix for video
+  * bug (gil)     Fix Pictures effect broken by last release.
+
+ -- Chris Debenham <chris@adebenham.com>  Sun, 24 Apr 2016 12:00:00 +1000
+
+xlights (2016.21) wily; urgency=medium
+  * enh (keithsw) Add x/y offset and some new movements to tendril
+  * enh (keithsw) Custom model export and import allowing simple sharing
+  * enh (keithsw) Add x offset to piano
+  * enh (keithsw) Add x and y offsets to select meteor effects
+  * enh (keithsw) Add x and y offsets to select vumeter effects
+  * enh (keithsw) Add timing track option for defining piano notes
+  * bug (gil)     Fix first frame and last frame buttons so the grid will scroll.  Fixes #544.
+  * enh (keithsw) Add Music Effect
+  * enh (keithsw) Add Note On sub effect to VU Meter - Like On but you can filter the notes it responds to
+  * enh (keithsw) Add Note Level Pulse sub effect to VU Meter - Like Level Pulse but you can filter the notes it responds to
+  * enh (keithsw) Add Timing Event Colour sub effect to VU Meter - This changes colour on timing events
+  * enh (keithsw) Add option to trigger firework effects based on the audio intensity
+  * enh (keithsw) Add the option to vary meteor effect meteor count based on the audio intensity
+  * enh (keithsw) Add Colour On sub effect to VU Meter - Selects a colour based on the intensity of the audio
+  * enh (keithsw) Add the ability to constrain the frequency range of the spectrogram. Columns in this effect are now aligned with MIDI notes.
+  * fix (keithsw) Ensure pictures, piano and video effect move when moving folders around
+  * enh (keithsw) Move convert tab into a dialog under TOOLS. Now go to convert "TOOLS,CONVERT"
+
+ -- Chris Debenham <chris@adebenham.com>  Fri, 22 Apr 2016 12:00:00 +1000
+
+xlights (2016.20) wily; urgency=medium
+  * bug (gil)   Fix right-click Paste not active after a Control-C copy.
+  * bug (gil)   Fix single copied effect not pasting to multiple cell selection.
+  * enh (gil)   Enable right-click Copy, Paste, Delete options for timing section of grid.
+  * enh (gil)   Enable Copy Row and Paste Row for Timing tracks.
+  * bug (gil)   Fix bug preventing some timing effects from being pasted.
+  * bug (gil)   Fix copy/paste bug where single effect copy was not pasting with original duration.
+  * bug (chrisD) Install dictionaries/phoneme files on Linux
+  * bug (dkulp) disable the popup as it causes a crash
+
+ -- Chris Debenham <chris@adebenham.com>  Tue, 13 Apr 2016 12:00:00 +1000
+
 xlights (2016.19) wily; urgency=medium
   * bug (dkulp) Fix Text not showing
   * bug (dkulp) Fix icicles buffer width
