@@ -1,3 +1,15 @@
+xlights (2016.26) wily; urgency=low
+   -- bug (dkulp) Add a bunch more debugging stuff to the OpenGL things
+   -- enh (dkulp) Improve Display Elements toolbar icon.
+   -- bug (dkulp) Update to use log properties to create a log file
+   -- bug (dkulp) Bunch of optimizations, more gl error logging, some fixes based on the error log
+   -- bug (dkulp) Minor work on the subbufferpanel
+   -- bug (gil)   Fix selected view not displaying in combo box on sequencer grid.  Fixes #562.
+   -- enh (gil)   Jump to sequencer tab after creating new sequence.
+   -- bug (gil)   Fix numeric entry size for Text effect position text boxes.  Fixes #557.
+   -- enh (gil)   Improve Sequence Elements toolbar icon.
+ -- Chris Debenham <chris@adebenham.com>  Wed, 6 May 2016 12:00:00 +1000
+
 xlights (2016.25) wily; urgency=medium
   * bug (dkulp) Bunch more fixes to OPENGL calls. Now Radeon cards should work
   * enh (dkulp) Add a menu item to select the max OpenGL version to use. Higher the version, the higher the eprformance of graphics. The lower, the more graphic cards that can be supported.
