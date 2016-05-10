@@ -1,3 +1,15 @@
+xlights (2016.27) wily; urgency=high
+   -- bug (dkulp) Fix problems of the model groups that are set to the old defau lt of grid as per preview using a buffer significantly smaller than they used to
+   -- enh (keithsw) Add FPS display when playing the sequence
+   -- bug (keithsw) Fix a bug with filename fixups
+   -- enh (keithsw) Cleanup scaling options on Music Effect ... now via a choice - None/Individual Notes/All Notes
+   -- enh (keithsw) Sparkles now can optionally grow with music intensity
+   -- enh (keithsw) Strobe effect now can optionally grow with music intensity
+   -- enh (keithsw) Fire effect now can optionally grow with music intensity
+   -- enh (keithsw) Add timing track export/import. Includes support for Papagayo and Piano timing tracks.
+   -- bug (keithsw) Lots of fixes to auto custom model generation
+ -- Chris Debenham <chris@adebenham.com>  Mon, 9 May 2016 12:00:00 +1000
+
 xlights (2016.26) wily; urgency=low
    -- bug (dkulp) Add a bunch more debugging stuff to the OpenGL things
    -- enh (dkulp) Improve Display Elements toolbar icon.
