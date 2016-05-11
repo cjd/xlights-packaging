@@ -1,3 +1,8 @@
+xlights (2016.28) wily; urgency=low
+   -- enh (keithsw) Add papagayo timing track import via Timing Track Import context menu
+   -- enh (keithsw) Add progress display during rendering all
+ -- Chris Debenham <chris@adebenham.com>  Tue, 10 May 2016 12:00:00 +1000
+
 xlights (2016.27) wily; urgency=high
    -- bug (dkulp) Fix problems of the model groups that are set to the old defau lt of grid as per preview using a buffer significantly smaller than they used to
    -- enh (keithsw) Add FPS display when playing the sequence
