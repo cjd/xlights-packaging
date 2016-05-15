@@ -1,3 +1,29 @@
+xlights (2016.29) wily; urgency=low
+   -- bug (keithsw) Fix prompt for custom model import so it happens after you size the custom model
+   -- enh (keithsw) Remove Papagayo tab
+   -- bug (gil)     Fix FSEQ filetype data layer import.
+   -- enh (gil)     Highlight Model row when effects are selected.  Fixes #145.
+   -- enh (dkulp)   Changing timing panel to OpenGL - Mac now can support up to 60fps
+   -- bug (dkulp)   Loading XML sequence with no fseq not setting the timer to the appropriate MS time
+   -- enh (dkulp)   If changing OpenGL verison, auto-package/submit logs to dkulp for analysis
+   -- enh (dkulp)   Click on progress meter brings up dialog showing progress of each model
+   -- enh (dkulp)   Progress meter on status bar for rendering
+   -- enh (gil)     Fix copy/paste for single effect so it fills cells selected when paste by cell.
+   -- enh (gil)     Add automatic channel placement in custom models with mouse clicks.
+   -- enh (gil)     Add ability to lighten the custom model background image.
+   -- enh (gil)     Add ability to place a background image on a custom model grid.  Fixes #5.
+   -- enh (keithsw) Add Manual Custom Model building assisted by image/video.
+   -- enh (keithsw) Add LSP timing track import
+   -- bug (gil)     Mark the sequence dirty when sequence duration is changed to prompt for save on exit.  Fixes #563.
+   -- bug (gil)     Fix jumping back to start briefly after an unpause.  Fixes #565.
+ -- Chris Debenham <chris@adebenham.com>  Sat, 14 May 2016 12:00:00 +1000
+
+xlights (2016.28) wily; urgency=low
+   -- bug (gil) Better fix for effects dragging past zero. This fixes dragging a timing mark to zero seconds.
+   -- enh (keithsw) Add papagayo timing track import via Timing Track Import context menu
+   -- enh (keithsw) Add progress display during rendering all
+ -- Chris Debenham <chris@adebenham.com>  Tue, 10 May 2016 12:00:00 +1000
+
 xlights (2016.27) wily; urgency=high
    -- bug (dkulp) Fix problems of the model groups that are set to the old defau lt of grid as per preview using a buffer significantly smaller than they used to
    -- enh (keithsw) Add FPS display when playing the sequence
