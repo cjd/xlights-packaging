@@ -1,3 +1,13 @@
+xlights (2016.33) wily; urgency=medium
+   -- bug (dkulp) Maybe fix #571?   Don't post the event, call directly.  
+   -- bug (dkulp) don't draw the grid and then immediately refresh anyway.
+   -- bug (dkulp) Log a few more opengl things, Force GDI driver down to 1.x
+   -- enh (keithsw) General import improvements: filename in title bar, warnings if you have not saved mapping and the ability to suppress excessive error messages.
+   -- enh (keithsw) Improved xLights sequence import.
+   -- enh (gil)   Add right-click delete model option in layout list.
+   -- bug (gil)   Fix node layout for custom models. Fixes #574.
+ -- Chris Debenham <chris@adebenham.com>  Wed, 25 May 2016 12:00:00 +1000
+
 xlights (2016.32) wily; urgency=high
    -- bug (dkulp) Bug where subbuffer might not get written out correctly (and written out when not needed)
    -- enh (dkulp) Optimization to not load the background image for every single mouse click on the Layout panel
