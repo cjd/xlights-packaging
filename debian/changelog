@@ -1,3 +1,15 @@
+xlights (2016.34) wily; urgency=medium
+   -- bug (gil)     Fix crash when delete key was hit in Layout with no model selected.  Fixes #533.
+   -- enh (gil)     Restructure how model groups are handled by providing a panel for them and allowing the members of the group to be managed in the property grid area.
+   -- enh (gil)     Add tilt parameter to the Arch model to allow better 3D perspective.  Fixes #250.
+   -- enh (keithsw) Add starfield option to meteors implode/explode look more like a starfield
+   -- enh (keithsw) Add autosave to .working.xml files ... saves every 3 minutes as long as the sequence is not playing
+   -- enh (keithsw) Zoom and rotate added to buffer panel including value curves for most parameters
+   -- enh (keithsw) Blur Value Curve Added
+   -- bug (dkulp)   DOn't corrupt rgb-effects if mouth set to (off).  Fixes #577
+   -- bug (dkulp)   Refresh the start/end channels when various properties (string type, strands, etc...) are changed. Fixes #575
+ -- Chris Debenham <chris@adebenham.com>  Tue, 31 May 2016 12:00:00 +1000
+
 xlights (2016.33) wily; urgency=medium
    -- bug (dkulp) Maybe fix #571?   Don't post the event, call directly.  
    -- bug (dkulp) don't draw the grid and then immediately refresh anyway.
