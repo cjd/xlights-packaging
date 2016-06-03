@@ -1,3 +1,15 @@
+xlights (2016.35) wily; urgency=high
+   -- bug (dkulp) Fix colorwash stripping out stuff it shouldn't
+   -- bug (dkulp) Minor layout things (removing borders on value curve buttons) and hopefully fix subbuffer panel
+   -- bug (dkulp)  If using pixel style "Solid Circle" or "Blended Circle", performance with OpenGL 2/3 was really bad.
+   -- bug (dkulp) Ability to disable/change the autosave interval.  Move settings query to its own timer (that doesn't need to be precise)
+   -- bug (dkulp)  Fix subbufferpanel not clearing the lines   -- bug (chrisD)  Update makefile for linux
+   -- enh (keithsw) Add value curves to butterfly, bars, spirals, circles
+   -- enh (keithsw) Add a reset to roto-zoom
+   -- bug (keithsw) Fix lights off button. Ensure I send a lights off packet to all lights when it is turned off.
+   -- enh (keithsw) Add value curve to brightness
+ -- Chris Debenham <chris@adebenham.com>  Thu, 2 May 2016 12:00:00 +1000
+
 xlights (2016.34) wily; urgency=medium
    -- bug (gil)     Fix crash when delete key was hit in Layout with no model selected.  Fixes #533.
    -- enh (gil)     Restructure how model groups are handled by providing a panel for them and allowing the members of the group to be managed in the property grid area.
