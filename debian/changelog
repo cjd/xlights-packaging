@@ -1,4 +1,5 @@
 xlights (2016.36) wily; urgency=low
+   -- enh (keithsw) Change backup files to *.xbkp extension to minimise risk of users opening them accidentally. Include them in F10 backup.
    -- bug (dkulp) Don't use OpenGL 2.1 if context is 2.0 Use glMapBufferRange instead of glBufferSubData (latter is SLOOOW on ATI cards)
    -- bug (dkulp) fix the background image button not working
    -- bug (dkulp) Update borders for singlestrand
