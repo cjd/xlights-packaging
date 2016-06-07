@@ -1,3 +1,19 @@
+xlights (2016.36) wily; urgency=low
+   -- bug (dkulp) Don't use OpenGL 2.1 if context is 2.0 Use glMapBufferRange instead of glBufferSubData (latter is SLOOOW on ATI cards)
+   -- bug (dkulp) fix the background image button not working
+   -- bug (dkulp) Update borders for singlestrand
+   -- enh (dkulp) Strip out the defaults for the On/ColorWash and buffer/layer/color panels at load time.   Reduces file size
+   -- bug (dkulp) Use an icon bundle with different sized icons to hopefully fix the volume meter issue on windows
+   -- bug (keithsw) Fix custom value curves not being editable when you re-open them
+   -- enh (keithsw) Value curves added to single strand, garlands, fire, plasma, curtain. color wash
+   -- bug (keithsw) Fix tendril effect
+   -- bug (keithsw) Fix custom value curves not being editable when you re-open them
+   -- bug (keithsw) When changing value curves use a sensible set of defaults.
+   -- enh (chrisD)  Add menu items to load/save perspectives directly
+   -- enh (gil)     Add new effect Fill.
+   -- enh Improve several effect toolbar icons.
+ -- Chris Debenham <chris@adebenham.com>  Mon, 6 Jun 2016 12:00:00 +1000
+
 xlights (2016.35) wily; urgency=high
    -- bug (dkulp) Fix colorwash stripping out stuff it shouldn't
    -- bug (dkulp) Minor layout things (removing borders on value curve buttons) and hopefully fix subbuffer panel
