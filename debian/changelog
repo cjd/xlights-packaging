@@ -1,3 +1,14 @@
+xlights (2016.37) wily; urgency=high
+   -- enh (keithsw) Extra logging on startup to isolate problems ... also logs config so we can understand settings.
+   -- enh (dkulp) Allow 10K nodes/string for SingleLineModel.  Fixes #592
+   -- enh (keithsw) Allow bars effect centre for compress/expand to be moved
+   -- enh (keithsw) Add spinner model
+   -- bug (keithsw) Fix a possible crash with perspectives.
+   -- enh (keithsw) Make image files in faces and assist easier to load by not having separate filter for each file type.
+   -- bug (dkulp) Fix problems with "Single Strand" buffer mode and custom models
+   -- bug (dkulp) fix "Per Preview" mode cutting off right most pixels of custom models
+ -- Chris Debenham <chris@adebenham.com>  Fri, 10 Jun 2016 12:00:00 +1000
+
 xlights (2016.36) wily; urgency=low
    -- bug (dkulp) Don't use OpenGL 2.1 if context is 2.0 Use glMapBufferRange instead of glBufferSubData (latter is SLOOOW on ATI cards)
    -- bug (dkulp) fix the background image button not working
