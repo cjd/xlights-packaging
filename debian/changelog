@@ -1,3 +1,37 @@
+xlights (2016.38) wily; urgency=high
+   -- bug (gil) Make sure new previews are added to the model groups preview combo box.
+   -- bug (gil) Remove items from View menu when a preview is deleted.
+   -- bug (chrisD) Don't crash when loading perspectives menu if current perspective not defined
+   -- bug (chrisD) Update default perspective if it is renamed
+   -- bug (chrisD) Reload default perspective on show directory change - fixes issue #601
+   -- bug (keithsw) Fix matrix faces not able to be changed to scaled. It always resets to centred.
+   -- bug (keithsw) For text effect with no movement ... x start slider was being ignored. Fixed.
+   -- bug (keithsw) Fix vertical fade on colorwash effect. It only worked if horizontal fade was also selected.
+   -- bug (dkulp) Check the file extension based on the lowercase version of the extension, so *.lms and *.LMS both work   -- enh (gil) NEW: Multiple Previews
+   -- bug (gil) Fix SuperStar import for Scenes to account for scaling changes to the Pictures effect.
+   -- bug (chrisD) Don't crash when loading perspectives menu if current perspective not defined
+   -- bug (chrisD) Update default perspective if it is renamed
+   -- bug (chrisD) Reload default perspective on show directory change - fixes issue #601
+   -- enh (dkulp) Optimizations for OpenGL for WaveView and model/house previews to pass all vertices/colors/textures in one shot
+                          (helps performance, particularly when multiple previews are shown)
+   -- enh (dkulp) Fix warnings/crash if background image doesn't exist
+   -- bug (dkulp) Fix crash on mac when swithing show directories.
+   -- bug (keithsw) Fix circles effect not changing colour.
+   -- bug (keithsw) Fix #589 - guard against nulll ptr
+   -- enh (keithsw) Implement alternate backup F11 allows the user to specify an alternate backup location and
+           backs up there instead. There is no auto backup to this location.
+   -- bug (keithsw) Make video more resilient to missing files
+   -- enh (keithsw) Add models export - now with controller details as well
+   -- enh (keithsw) Add optional backup on save ... this is by default disabled.
+   -- enh (keithsw) Add value curves to: Music, Piano, Tendrils, Lightning, VUMeter, Wave
+   -- enh (keithsw) Allow custom value curve points to be moved sideways as well as vertically.
+   -- bug (keithsw) Fix bugs in piano effect: Piano not drawn without notes source, Polyphonic Transcription broken.
+   -- bug (keithsw) Fix problem with fire effect when buffer size changes
+   -- enh (keithsw) Add square wave to value effect presets
+   -- enh (keithsw) Add multicolour support to Tendrils ... should also fix bug with Tendril not holding colour change
+   -- bug (keithsw) Disable bitmap brightness slider and show/hide button if no bitmap defined on custom model.
+ -- Chris Debenham <chris@adebenham.com>  Fri, 24 Jun 2016 12:00:00 +1000
+
 xlights (2016.37) wily; urgency=high
    -- enh (keithsw) Extra logging on startup to isolate problems ... also logs config so we can understand settings.
    -- enh (dkulp) Allow 10K nodes/string for SingleLineModel.  Fixes #592
