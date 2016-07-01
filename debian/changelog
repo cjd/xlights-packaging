@@ -1,3 +1,20 @@
+xlights (2016.39) wily; urgency=low
+   -- enh (keithsw) Make network setup save button work like the layout panel ... red when it needs saving.
+   -- bug (dkulp) Fix background brightness setting with OpenGL 1.1
+   -- enh (keithsw) Add backup when xlights started or show directory changed
+   -- bug (keithsw) Fix value curve enabling/disabling
+   -- bug (keithsw) Fix piano and VUMeter reaction to changes in timing marks.
+   -- enh (keithsw) Add model state settings and effect to control states.
+   -- enh (keithsw) Add autosave to layout
+   -- bug (keithsw) Ensure effect settings reset when first selected for dropping if they are different to the current effect. Most effects done.
+   -- enh (keithsw) Add value curves to Pinwheel, Shimmer, Spirograph, Ripple effects
+   -- enh (gil) DMX effect automatically determines number of channels to use
+   -- enh (gil) DMX effect will show node names if defined in place of channel numbers
+   -- enh (gil) DMX effect now uses value curves to do ramps and works with single color channels
+   -- bug (gil) Fix SuperStar import for Scenes, ImageActions, and Text when layout is horizontal.
+   -- bug (gil) Update last preview in effects file when preview is deleted.  Also protect against a bad named stored in the file.
+ -- Chris Debenham <chris@adebenham.com>  Thu, 30 Jun 2016 12:00:00 +1000
+
 xlights (2016.38) wily; urgency=high
    -- bug (gil) Make sure new previews are added to the model groups preview combo box.
    -- bug (gil) Remove items from View menu when a preview is deleted.
