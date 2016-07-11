@@ -1,3 +1,33 @@
+xlights (2016.40) wily; urgency=high
+   -- bug (gil)  Make the initial pane size larger for Model Preview, House Preview, and Effect Assist windows.  Fixes #617
+   -- bug (dkulp) Fix dotted lines in model preview selection stuff
+   -- enh (keithsw) Add end channel to model export
+   -- enh (keithsw) Log very slow rendered frames
+   -- bug (keithsw) Fix value curve problems with some waveforms
+   -- bug (keithsw) Stop custom model leading to crashes if non numerics are entered in grid cells
+   -- enh (keithsw) Add view log to the tools menu so users can easily access the log file
+   -- bug (keithsw) Stop tab dragging on main window
+   -- bug (keithsw) Make video Effect render red if video file does not exist or single line buffer style is used
+   -- enh (keithsw) Add value curve to sparkles
+   -- enh (keithsw) Add preset export/import *.xpreset files
+   -- bug (keithsw) Fix crash in piano when start note > end note
+   -- bug (keithsw) Fix tendril music line effect that was broken in v39
+   -- bug (keithsw) Fix blur effect that was broken in v39
+   -- enh (keithsw) Add model face and state data to xmodel files
+   -- bug (gil)     Fix conversion to LOR format.
+   -- enh (gil)     Modify On and Colorwash effects to support DMX models.
+   -- enh (gil)     New DMX model added with 5 types so far: Top view, Side view, Bars view, Top w/Bars, and Side w/Bars.
+   -- bug (gil)     Prevent scenario where model groups could show up to be added to a model group.
+   -- bug (gil)     Delete model and all effects from grid and views when a model is deleted. Fixes #611
+   -- enh (gil)     More improvements to SuperStar imports of images.
+   -- enh (gil)     Better placement of Text Effects imported from SuperStar.
+   -- enh (gil)     Add option to average colors for SuperStar import.  More closely matches it's blending method.
+   -- enh (gil)     Improve SuperStar import settings for Fan effect.  This effect is close but not an exact duplicate.
+   -- enh (gil)     Fix proper start/end angles for flowys imported from Superstar for horizontal layout.
+   -- bug (gil)     Fix potential crashes with right-click popup menus in Layout page.
+   -- enh (gil)     Make the initial pane size larger for Model Preview, House Preview, and Effect Assist windows.  Fixes #617.
+ -- Chris Debenham <chris@adebenham.com>  Sun, 10 Jul 2016 12:00:00 +1000
+
 xlights (2016.39) wily; urgency=low
    -- enh (keithsw) Make network setup save button work like the layout panel ... red when it needs saving.
    -- bug (dkulp) Fix background brightness setting with OpenGL 1.1
