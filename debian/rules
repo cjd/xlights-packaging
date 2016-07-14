@@ -21,3 +21,5 @@ include /usr/share/dpkg/default.mk
 
 override_dh_auto_install:
 	dh_auto_install -- PREFIX=/usr
+
+overrise_dh_strip:
