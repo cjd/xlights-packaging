@@ -17,7 +17,7 @@ xlights (2016.41) wily; urgency=low
    -- enh (keithsw) Add timing track renaming on sequencer window and make it automatically update any effects that were using the timing track
    -- bug (keithsw) Fix test tab handling of models which are single node but multiple nodes such as DMX model
    -- enh (keithsw) Add count of effect layers on presets window
- -- Chris Debenham <chris@adebenham.com>  Fri, 22 July 2016 12:00:00 +1000
+ -- Chris Debenham <chris@adebenham.com>  Fri, 22 Jul 2016 12:00:00 +1000
 
 xlights (2016.40) wily; urgency=high
    -- bug (gil)  Make the initial pane size larger for Model Preview, House Preview, and Effect Assist windows.  Fixes #617
