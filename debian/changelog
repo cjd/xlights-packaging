@@ -9,7 +9,7 @@ xlights (2016.42) wily; urgency=low
    -- bug (keithsw) Update start channel dialog for new format + also make it smarter about which outputs and universes exist.
    -- bug (dkulp)   Don't add/remove layers if the element is being rendered
    -- bug (dkulp)   Fix a crash when loading an invalid sequence that had effect names of ""
- -- Chris Debenham <chris@adebenham.com>  Sat 30 Jul 2016 12:00:00 +1000
+ -- Chris Debenham <chris@adebenham.com>  Sat, 30 Jul 2016 12:00:00 +1000
 
 xlights (2016.41) wily; urgency=low
    -- enh (dkulp)   Add pinch-to-zoom on Mac trackpad
