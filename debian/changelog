@@ -1,3 +1,38 @@
+xlights (2016.44) wily; urgency=low
+   -- enh (keithsw) Add Import Notes to right click menu on timing tracks ... this will create a timing track containing notes from Polyphonic Transcription, MIDI, Audacity and Music XML files. All sources other than 'Timing Track' will be removed from the piano effect in a future release.
+   -- enh (keithsw) Enhance autosave to be smarter and only save when it needs to
+   -- enh (keithsw) Add metronome arbitrary fixed timing timing tracks
+   -- enh (keithsw) Add color curves
+   -- enh (keithsw) Add some built in color curves
+   -- enh (keithsw) Add Timing Event Jump effect to VU Meter
+   -- enh (keithsw) Make fireworks follow the colour curve
+   -- bug (keithsw) Fix crashes in music and piano effects
+   -- enh (gil)     Add ability to import/export PolyLine models to .xmodel files.
+   -- enh (gil)     Add ability to PolyLine to create curved segments.
+   -- enh (gil)     Shift+MouseWheel will now scroll grid right/left when in Waveform or Grid.  Fixes #644.
+   -- bug (gil)     Fix crashes when switching show directories that contain custom previews.
+   -- bug (gil)     Fix default layer mode not saving for Model Group properties.  Fixes #643.
+   -- enh (gil)     Allow multiple selected effects to be moved up/down and nudged left/right.  Fixes #642.
+   -- bug (gil)     Fix offscreen effects not moving when dragged or nudged left/right.  Fixes #637.
+   -- enh (gil)     Change from Lights/String to Nodes/String based on string type selected.  Fixes #633.
+   -- enh (gil)     Allow playback speed to slow down playback for Animation sequences.
+ -- Chris Debenham <chris@adebenham.com>  Mon, 8 Aug 2016 12:00:00 +1000
+
+xlights (2016.43) wily; urgency=low
+   -- bug (gil)     Fix PolyLine not working with single channel nodes.
+   -- enh (gil)     Increase Fan radius parameters limits.  Fixes #640.
+   -- enh (gil)     Improve effect selection and updates when vertical scrolling.  Fixes #638.
+   -- bug (gil)     Prevent crash when custom model background image does not exist. Fixes #639.
+   -- bug (gil)     Remove Previews from Menus when switching show directories.
+   -- enh (gil)     Add ability to scale PolyLine models.
+   -- enh (gil)     Add effect alignment options.
+   -- bug (gil)     Prevent PolyLine point deletion unless there are 3 or more points.
+   -- bug (gil)     Fix PolyLine selection hotspots and selection with yellow bounding box.
+   -- enh (gil)     Account for malformed XML in the new version 6 format of SuperStar files.
+   -- bug (dkulp)   Fix crash when matrix type models have a single node and a Model/Strand render style is used
+   -- enh (dkulp)   Allow multiple layers for Strands, strands blend onto the model level effects
+ -- Chris Debenham <chris@adebenham.com>  Thu, 4 Aug 2016 12:00:00 +1000
+
 xlights (2016.43) wily; urgency=low
    -- bug (gil)     Fix PolyLine not working with single channel nodes.
    -- enh (gil)     Increase Fan radius parameters limits.  Fixes #640.
