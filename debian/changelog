@@ -1,3 +1,16 @@
+xlights (2016.47) wily; urgency=low
+   -- bug (dkulp)   Update the EffectAssist when the effect settings change, EffectAssist considers submodel buffer sizes
+   -- enh (dkulp)   Add submodels to Tree on LayoutPage, allow renaming
+   -- enh (dkulp)   Put the currently open sequence filename in titlebar
+   -- enh (dkulp)   Add standard OSX "Window" menu item
+   -- bug (dkulp)   Fix prompt of modified sequence when closing an unmodified sequence
+   -- bug (gil)     Fix import of Superstar Spirals spin direction.
+   -- bug (gil)     Fix PolyLine when controller is position is right.
+   -- bug (keithsw) Fix seven segment bitmap
+   -- bug (keithsw) Fix video export of model for non matrices
+   -- enh (keithsw) Add value curve user definable presets
+ -- Chris Debenham <chris@adebenham.com>  Mon, 22 Aug 2016 12:00:00 +1000
+
 xlights (2016.46) wily; urgency=low
    -- enh (dkulp)   Add SubModels for defining effects for specific parts of a model
    -- bug (dkulp)   Check for invalid models before adding the models associated with the current view so those models can be selected for mapping
