@@ -1,3 +1,7 @@
+xlights (2016.49.1) wily; urgency=low
+   -- Change packaging to use gtk2 instead of gtk3 due to crashes in wxwidgets
+ -- Chris Debenham <chris@adebenham.com>  Tue, 20 Aug 2016 12:00:00 +1000
+
 xlights (2016.49) wily; urgency=low
    -- bug (dkulp)   Strand/Submodel/Node effects were not clearing their buffer area on control updates resulting in ghosted data until a full render
    -- bug (dkulp)   DimmingCurve dialog not initialized properly for models that don't already have a dimming curve
