@@ -1,6 +1,10 @@
+xlights (2016.49.2) wily; urgency=high
+   -- Change to wxwidgets code to improve small button handling
+ -- Chris Debenham <chris@adebenham.com>  Tue, 27 Sep 2016 12:00:00 +1000
+
 xlights (2016.49.1) wily; urgency=low
    -- Change packaging to use gtk2 instead of gtk3 due to crashes in wxwidgets
- -- Chris Debenham <chris@adebenham.com>  Tue, 20 Aug 2016 12:00:00 +1000
+ -- Chris Debenham <chris@adebenham.com>  Tue, 20 Sep 2016 12:00:00 +1000
 
 xlights (2016.49) wily; urgency=low
    -- bug (dkulp)   Strand/Submodel/Node effects were not clearing their buffer area on control updates resulting in ghosted data until a full render
@@ -31,7 +35,7 @@ xlights (2016.49) wily; urgency=low
    -- enh (keithsw) Add a random color curve type ... randomly sets the color to a color between the colors of the color stops
    -- enh (keithsw) Add palette quick sets
    -- enh (keithsw) Add ArtNET support - DMX and Sync packets only
- -- Chris Debenham <chris@adebenham.com>  Tue, 13 Aug 2016 12:00:00 +1000
+ -- Chris Debenham <chris@adebenham.com>  Tue, 13 Sep 2016 12:00:00 +1000
 
 xlights (2016.48) wily; urgency=low
    -- enh (keithsw) Add sequence checker, "Tools,Check Sequence". This scans your Setup/Layout/Open sequence and highlights any
