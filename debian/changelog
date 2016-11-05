@@ -1,3 +1,76 @@
+xlights (2016.51) wily; urgency=high
+   -- enh (chrisD)  Update sequence checker to handle start channels in #IP:UNIVERSE:CHANNEL format
+   -- bug (keithsw) Performance fix for animated GIFs. Example: "This is Halloween" went from 300 second save to 65 seconds.
+   -- bug (dkulp)   Fix mac<-->windows pictures effect filename mapping
+   -- bug (dkulp)   Fix mapping onto nodes if nothing is mapped to the strand
+   -- bug (dkulp)   Fix "Create Random Effects" taking forever to complete
+   -- enh (dkulp)   Get the FPP Connect via FTP stuff working on the Mac, also allow named based FPP
+   -- bug (keithsw) Fix GIF scaleing not working.
+   -- bug (keithsw) Sequence Checker issue for Stars layers #721
+   -- bug (dkulp)   Don't crash if polyline is set to singlechannel and start at right
+   -- bug (keithsw) Fix #612 ... missing effect settings scroll bars
+   -- enh (keithsw) Optimise logging in render loop ... means you cant turn on logging
+   -- bug (chrisD)  Avoid crash if pasted data is empty
+   -- bug (chrisD)  Fix github issue #709 "Fire effect height textbox entry"
+   -- enh (keithsw) fixed change the link button image and hover text in the Setup screen #342
+   -- bug (dkulp)   Make sure picture effect is re-initted at start of effect
+   -- bug (dkulp)   Fix crash on toggle strands when clicked on a strand instead of model
+   -- enh (gil)     Add shutter support to DMX model.
+   -- enh (dkulp)   Allow 180 trees to rotate and make sure they display as 180
+   -- enh (dkulp)   Start all jobs that don't depend on anything above them first, then start the rest. 30% performance improvement
+   -- enh (dkulp)   Make sure the list box is growable
+   -- bug (dkulp)   Fix crash on render on some sequences
+   -- enh (Jennifer)added tool tips for countdowns
+   -- enh (Jennifer)New enhancements for countdown timer in text effect
+   -- bug (keithsw) Fix GIF handling of animated gifs where first frame is not full size ... ie it has an offset.
+   -- bug (keithsw) Fix video effect start time bug.
+   -- enh (keithsw) Allow VU Meter to use Papagayo layer 0 as a timing track
+   -- bug (keithsw) Fix GIF handling of animated gifs where first frame is not full size ... ie it has an offset.
+   -- bug (chrisD)  Fix rounding issue leading to unwanted gap between spirals
+   -- bug (gil)     Fix model staying highlighted when removed from group.  Fixes #707.
+   -- bug (gil)     Prevent creation of unnecessary layer when promoting effects from only 1 strand.
+   -- bug (gil)     Fix exception when opening Lyric Dialog.  Fixes #710.
+   -- bug (keithsw) More animated GIF fixes ... all should work now
+   -- enh (keithsw) Add right click menu to controller list on setup tab including: - Inserts controller(s) at a point in the list - Bulk update IP address, channel count and description : - Bulk delete - delete key and control-A to select all - activate and deactivate are now available as right click menu items. Double click or ENTER key open the controller to edit it - grey out inactive controllers - open controller in your browser
+   -- enh (keithsw) Allow rubber band selection of models on layout tab without holding down shift key
+   -- bug (keithsw) keyboard nudging of multiple selected models now works
+   -- enh (keithsw) Add multi artnet universe adding
+   -- bug (keithsw) Fix seven segment states not sticking
+   -- enh (keithsw) Add FPP Connect which will upload universe configuration, fseq and media files.
+   -- enh (keithsw) Add start channel checks to check sequence
+   -- enh (keithsw) Fix #342 - add a tooltip to show dir/media dir link button to make it clearer what the button does in each state
+ -- Chris Debenham <chris@adebenham.com>  Fri, 4 Nov 2016 12:00:00 +1000
+
+xlights (2016.50) wily; urgency=medium
+   -- enh (gil)     Allow arrow key to be used to scroll in model list in Layout.  Fixes #582.
+   -- enh (dkulp)   Add -r command line switch to render and save the fseq file and then exit
+   -- enh (gil)     Modify value curve icon so its clear when its not selected.  Fixes #675.
+   -- bug (gil)     Fix crash when pasting bad data.  Fixes #693 and fixes #694.
+   -- bug (gil)     Fix extra preview windows not holding their saved position.
+   -- bug (dkulp)   Fix node names used for HLS imports truncating the last character
+   -- bug (keithsw) Fix animated GIF files which were not rendering correctly
+   -- enh (keithsw) Make import and export of effects remember the last type used under assumption user is likely to want to use it again next time
+   -- bug (keithsw) Fix contrast on oversized sub-buffer. Yellow on light grey
+   -- enh (keithsw) Add links to common web resources to the help menu
+   -- enh (keithsw) Add palette reversal and deletion
+   -- enh (keithsw) Add multilayer insertion
+   -- bug (keithsw) Make output and model descriptions XML safe
+   -- enh (keithsw) Make garland lights on tree effect optional
+   -- bug (keithsw) Fix start channel check in check sequence calculating start channel incorrectly
+   -- enh (keithsw) Add custom model checks to check sequence
+   -- enh (keithsw) Add model checks to star and circles models to ensure all nodes correctly allocated
+   -- bug (keithsw) Fix some preset layer counting issues - string v3 presets from display as they cant be applied
+   -- enh (keithsw) Fix #340 - Add key model stats to model export
+   -- enh (keithsw) Add effect decriptions and effect export to get easy list of your effects in sequence and analysis of effect frequency.
+   -- enh (keithsw) Add check sequence check to highlight the network adapter we will output lights data to.
+   -- bug (keithsw) Increase maximum time offset for effects import from 10 seconds to 10 minutes
+   -- bug (keithsw) Fix model channel overlap checking in layout panel
+ -- Chris Debenham <chris@adebenham.com>  Tue, 27 Sep 2016 12:00:00 +1000
+
+xlights (2016.49.2) wily; urgency=high
+   -- Change to wxwidgets code to improve small button handling
+ -- Chris Debenham <chris@adebenham.com>  Tue, 27 Sep 2016 12:00:00 +1000
+
 xlights (2016.50) wily; urgency=medium
    -- enh (gil)     Allow arrow key to be used to scroll in model list in Layout.  Fixes #582.
    -- enh (dkulp)   Add -r command line switch to render and save the fseq file and then exit
