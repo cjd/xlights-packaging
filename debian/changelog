@@ -1,3 +1,15 @@
+xlights (2016.52) wily; urgency=medium
+   -- bug (dkulp)   Allow using @ModelName:# for individual strands where ModelName is the current model
+   -- bug (keithsw) Fix picture effect image scaling
+   -- bug (keithsw) Set default FPP user to fpp instead of pi
+   -- bug (dkulp)   Fix crash if node effects are on nodes that don't exist
+   -- bug (dkulp)   Fix crash on scheduler page on OSX due to obsolete code
+   -- enh (jwylie)  changed minute : second counter to accept prepended and appended text
+   -- enh (dkulp)   Add ability to import custom timing tracks (and lyric tracks) from other xLights sequences
+   -- bug (dkulp)   Fix crash on drag/drop if no sequence loaded 
+   -- bug (dkulp)   CreateCustomModel dialog would not allow selecting node type on OSX
+ -- Chris Debenham <chris@adebenham.com>  Wed, 9 Nov 2016 12:00:00 +1000
+
 xlights (2016.51) wily; urgency=high
    -- enh (chrisD)  Update sequence checker to handle start channels in #IP:UNIVERSE:CHANNEL format
    -- bug (keithsw) Performance fix for animated GIFs. Example: "This is Halloween" went from 300 second save to 65 seconds.
