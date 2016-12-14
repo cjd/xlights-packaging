@@ -1,3 +1,19 @@
+xlights (2016.54) wily; urgency=low
+   -- bug (dkulp) Make sure we have a valid show directory at startup... too man y crashes occur without one
+   -- bug (dkulp) Fix bugs with file based dimming curves
+   -- enh (gjones) Add ability to time shift all effects in a sequence under Edit menu.
+   -- enh (dkulp) Basic TouchBar support on latest MacBookPros
+   -- bug (dkulp) Don't crash if an invalid model or submodel causes a buffer to be size 0
+   -- bug (dkulp) Don't crash if special characters are using timing track labels. Fixes #762
+   -- bug (dkulp) Fix crash if sequence has % in name
+   -- bug (keithsw) Fix video effect crash on Mac
+   -- bug (keithsw) Strip leading zeroes from ip addresses to prevent issues
+   -- bug (keithsw) Fix video looping
+   -- bug (keithsw) On piano effect fix reset of timing track when note range changed
+   -- bug (keithsw) Fix updating of start/end time in the status bar when an effect is moved
+   -- bug (keithsw) Fix export models to export all models not just those in current preview
+ -- Chris Debenham <chris@adebenham.com>  Wed, 14 Dec 2016 12:00:00 +1000
+
 xlights (2016.53) wily; urgency=medium
    -- bug (dkulp)   Fix overlap of icicle drops when using multiple strings
    -- bug (dkulp)   Fix crash when Undo is used after closing a sequence and opening another
