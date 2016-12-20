@@ -1,3 +1,19 @@
+xlights (2016.55) wily; urgency=low
+   -- enh (cjd) Rewrite pinwheel effect to handle larger buffer sizes cleanly
+   -- enh (keithsw) Reset buffer panel when selecting a new effect
+   -- enh (keithsw) Reset buffer panel when selecting a new effect
+   -- enh (keithsw) Add spatial colour curves on the On effect
+   -- enh (keithsw) When opening sequence check for a newer xbkp file. If it exists prompt the user to use it instead.
+   -- enh (keithsw) Add -w command line switch which wipes all saved settings restoring machine settings back to a true fresh install
+   -- enh (keithsw) Add checks for large blocks of unused channels between models
+   -- enh (keithsw) Add fireworks fire with timing mark
+   -- enh (keithsw) Add flip to colour curve
+   -- enh (Keithsw) Detect multiple outputs sending data to the same place in check sequence
+   -- enh (keithsw) Input config upload to FPP for bridge mode
+   -- enh (keithsw) Input config upload to falcon controllers
+   -- enh (keithsw) Output config upload to falcon controllers
+ -- Chris Debenham <chris@adebenham.com>  Wed, 21 Dec 2016 12:00:00 +1000
+
 xlights (2016.54) wily; urgency=low
    -- bug (dkulp) Make sure we have a valid show directory at startup... too man y crashes occur without one
    -- bug (dkulp) Fix bugs with file based dimming curves
