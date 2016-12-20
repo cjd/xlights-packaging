@@ -38,7 +38,7 @@ xlights (2016.52) wily; urgency=medium
  -- Chris Debenham <chris@adebenham.com>  Wed, 9 Nov 2016 12:00:00 +1000
 
 xlights (2016.51) wily; urgency=high
-   -- enh (chrisD)  Update sequence checker to handle start channels in #IP:UNIVERSE:CHANNEL format
+   -- enh (cjd)  Update sequence checker to handle start channels in #IP:UNIVERSE:CHANNEL format
    -- bug (keithsw) Performance fix for animated GIFs. Example: "This is Halloween" went from 300 second save to 65 seconds.
    -- bug (dkulp)   Fix mac<-->windows pictures effect filename mapping
    -- bug (dkulp)   Fix mapping onto nodes if nothing is mapped to the strand
@@ -49,8 +49,8 @@ xlights (2016.51) wily; urgency=high
    -- bug (dkulp)   Don't crash if polyline is set to singlechannel and start at right
    -- bug (keithsw) Fix #612 ... missing effect settings scroll bars
    -- enh (keithsw) Optimise logging in render loop ... means you cant turn on logging
-   -- bug (chrisD)  Avoid crash if pasted data is empty
-   -- bug (chrisD)  Fix github issue #709 "Fire effect height textbox entry"
+   -- bug (cjd)  Avoid crash if pasted data is empty
+   -- bug (cjd)  Fix github issue #709 "Fire effect height textbox entry"
    -- enh (keithsw) fixed change the link button image and hover text in the Setup screen #342
    -- bug (dkulp)   Make sure picture effect is re-initted at start of effect
    -- bug (dkulp)   Fix crash on toggle strands when clicked on a strand instead of model
@@ -65,7 +65,7 @@ xlights (2016.51) wily; urgency=high
    -- bug (keithsw) Fix video effect start time bug.
    -- enh (keithsw) Allow VU Meter to use Papagayo layer 0 as a timing track
    -- bug (keithsw) Fix GIF handling of animated gifs where first frame is not full size ... ie it has an offset.
-   -- bug (chrisD)  Fix rounding issue leading to unwanted gap between spirals
+   -- bug (cjd)  Fix rounding issue leading to unwanted gap between spirals
    -- bug (gil)     Fix model staying highlighted when removed from group.  Fixes #707.
    -- bug (gil)     Prevent creation of unnecessary layer when promoting effects from only 1 strand.
    -- bug (gil)     Fix exception when opening Lyric Dialog.  Fixes #710.
@@ -374,17 +374,17 @@ xlights (2016.39) wily; urgency=low
 xlights (2016.38) wily; urgency=high
    -- bug (gil) Make sure new previews are added to the model groups preview combo box.
    -- bug (gil) Remove items from View menu when a preview is deleted.
-   -- bug (chrisD) Don't crash when loading perspectives menu if current perspective not defined
-   -- bug (chrisD) Update default perspective if it is renamed
-   -- bug (chrisD) Reload default perspective on show directory change - fixes issue #601
+   -- bug (cjd) Don't crash when loading perspectives menu if current perspective not defined
+   -- bug (cjd) Update default perspective if it is renamed
+   -- bug (cjd) Reload default perspective on show directory change - fixes issue #601
    -- bug (keithsw) Fix matrix faces not able to be changed to scaled. It always resets to centred.
    -- bug (keithsw) For text effect with no movement ... x start slider was being ignored. Fixed.
    -- bug (keithsw) Fix vertical fade on colorwash effect. It only worked if horizontal fade was also selected.
    -- bug (dkulp) Check the file extension based on the lowercase version of the extension, so *.lms and *.LMS both work   -- enh (gil) NEW: Multiple Previews
    -- bug (gil) Fix SuperStar import for Scenes to account for scaling changes to the Pictures effect.
-   -- bug (chrisD) Don't crash when loading perspectives menu if current perspective not defined
-   -- bug (chrisD) Update default perspective if it is renamed
-   -- bug (chrisD) Reload default perspective on show directory change - fixes issue #601
+   -- bug (cjd) Don't crash when loading perspectives menu if current perspective not defined
+   -- bug (cjd) Update default perspective if it is renamed
+   -- bug (cjd) Reload default perspective on show directory change - fixes issue #601
    -- enh (dkulp) Optimizations for OpenGL for WaveView and model/house previews to pass all vertices/colors/textures in one shot
                           (helps performance, particularly when multiple previews are shown)
    -- enh (dkulp) Fix warnings/crash if background image doesn't exist
@@ -428,7 +428,7 @@ xlights (2016.36) wily; urgency=low
    -- bug (keithsw) Fix tendril effect
    -- bug (keithsw) Fix custom value curves not being editable when you re-open them
    -- bug (keithsw) When changing value curves use a sensible set of defaults.
-   -- enh (chrisD)  Add menu items to load/save perspectives directly
+   -- enh (cjd)  Add menu items to load/save perspectives directly
    -- enh (gil)     Add new effect Fill.
    -- enh Improve several effect toolbar icons.
  -- Chris Debenham <chris@adebenham.com>  Mon, 6 Jun 2016 12:00:00 +1000
@@ -438,7 +438,7 @@ xlights (2016.35) wily; urgency=high
    -- bug (dkulp) Minor layout things (removing borders on value curve buttons) and hopefully fix subbuffer panel
    -- bug (dkulp)  If using pixel style "Solid Circle" or "Blended Circle", performance with OpenGL 2/3 was really bad.
    -- bug (dkulp) Ability to disable/change the autosave interval.  Move settings query to its own timer (that doesn't need to be precise)
-   -- bug (dkulp)  Fix subbufferpanel not clearing the lines   -- bug (chrisD)  Update makefile for linux
+   -- bug (dkulp)  Fix subbufferpanel not clearing the lines   -- bug (cjd)  Update makefile for linux
    -- enh (keithsw) Add value curves to butterfly, bars, spirals, circles
    -- enh (keithsw) Add a reset to roto-zoom
    -- bug (keithsw) Fix lights off button. Ensure I send a lights off packet to all lights when it is turned off.
@@ -483,7 +483,7 @@ xlights (2016.32) wily; urgency=high
    -- enh (keithsw) VideoReader ... more protection for possible divide by zero errors. 
             Includes logging of any problems found.
    -- bug (keithsw) Make logs 1MB as originally intended. These should zip to well under 50% when sent to us.
-   -- bug (chrisD) Force TendrilEffect and TextEffect on foreground thread under Linux
+   -- bug (cjd) Force TendrilEffect and TextEffect on foreground thread under Linux
  -- Chris Debenham <chris@adebenham.com>  Thu, 19 May 2016 12:00:00 +1000
 
 xlights (2016.31) wily; urgency=medium
@@ -617,7 +617,7 @@ xlights (2016.20) wily; urgency=medium
   * enh (gil)   Enable Copy Row and Paste Row for Timing tracks.
   * bug (gil)   Fix bug preventing some timing effects from being pasted.
   * bug (gil)   Fix copy/paste bug where single effect copy was not pasting with original duration.
-  * bug (chrisD) Install dictionaries/phoneme files on Linux
+  * bug (cjd) Install dictionaries/phoneme files on Linux
   * bug (dkulp) disable the popup as it causes a crash
 
  -- Chris Debenham <chris@adebenham.com>  Tue, 13 Apr 2016 12:00:00 +1000
