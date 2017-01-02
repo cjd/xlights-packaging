@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Chris Debenham <chris@adebenham.com>
 Build-Depends: debhelper (>= 9), libgtk2.0-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, freeglut3-dev, libavcodec-ffmpeg-dev|libavcodec-dev, libavformat-ffmpeg-dev|libavformat-dev, libswscale-ffmpeg-dev|libswscale-dev, libsdl1.2-dev, libswresample-ffmpeg-dev|libswresample-dev, liblog4cpp5-dev, libavutil-ffmpeg-dev|libavutil-dev, libavresample-ffmpeg-dev|libavresample-dev, cbp2make
 Standards-Version: 3.9.6
-Homepage: http://nutcracker123.com/wk/
+Homepage: http://xlights.org/
 Vcs-Git: git://github.com/smeighan/xLights.git
 Vcs-Browser: https://github.com/smeighan/xLights
 
