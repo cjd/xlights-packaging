@@ -1,4 +1,4 @@
-xlights (2017.01) wily; urgency=high
+xlights (2017.1) wily; urgency=high
    -- enh (dkulp)   Support groups within groups. Preview should be correct with groups within groups
    -- enh (dkulp)   Add sequence option for allowing blending of effects between models/groups
    -- bug (dkulp)   Fix problem in JobPool where not enough threads may be created 
