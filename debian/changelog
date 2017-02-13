@@ -1,3 +1,32 @@
+xlights (2017.3) wily; urgency=medium
+   -- enh (gil)     Add new Skulltronix skull display option for the DMX model.
+   -- enh (gil)     Add new 3D DMX head display option for the DMX model.
+   -- enh (gil)     Add new Servo Effect mainly for 16 bit servos but also works
+ with 8 bit channels.
+   -- enh (gil)     Add capability to import a VSA file.
+   -- bug (dkulp)   Don't stop the timer when flipping pages. Fixes #817
+   -- enh (keith)   Add list of referenced files to export effects
+   -- enh (keith)   Add text output to xSchedule allowing run time countdowns and text overlays
+   -- bug (keith)   Fix #814 Make video start time editable
+   -- bug (keith)   Fix #820 Fix triangle wave form in wave effect
+   -- bug (keith)   Fix end channel not updating on layout tab
+   -- enh (keith)   Add documentation of xSchedule web api to the source repository
+   -- enh (keith)   Add colour reordering as an output process in the scheduler.
+   -- enh (keith)   Add pixel reversing as an output process in the scheduler
+   -- enh (keith)   Add import to xSchedule to allow importing of xLights 4 schedules.
+   -- enh (keith)   Make LOR import more like xLights import ... using a tree rather than a grid. There is some risk this breaks "CCR" 
+                    import mode in which case someone needs to send me a sample file. 
+   -- enh (keith)   Make Vixen 2 import more like xLights import ... using a tree rather than a grid. 
+   -- bug (keith)   Fix erasure of outputs on setup when changing to a new empty folder
+   -- enh (keith)   Give mapping files an extension (*.xmap) to make them easier to locate
+   -- enh (keith)   Allow user to specify the local IP address to use for e131/Artnet output
+   -- bug (keith)   Fix #753 Preset not showing the correct number of layers
+ -- Chris Debenham <chris@adebenham.com>  Mon, 13 Feb 2017 12:00:00 +1000
+
+xlights (2017.2) wily; urgency=low
+   -- bug (sean)   Bundle up package so that xSchedule has the properties files needed to run
+ -- Chris Debenham <chris@adebenham.com>  Tue, 31 Jan 2017 12:00:00 +1000
+
 xlights (2017.1) wily; urgency=high
    -- enh (dkulp)   Support groups within groups. Preview should be correct with groups within groups
    -- enh (dkulp)   Add sequence option for allowing blending of effects between models/groups
