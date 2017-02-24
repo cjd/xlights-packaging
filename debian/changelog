@@ -1,3 +1,15 @@
+xlights (2017.5) wily; urgency=medium
+   -- bug (dkulp)   Fix Pinwheel effects created before June 2016
+   -- bug (dkulp)   Re-allow use of hostnames instead of IP addresses for outputs
+   -- bug (dkulp)   Fix nullptr crash if master view has models that don't exist
+   -- bug (keith)   Fix incorrect Property value count in e131 packets
+   -- bug (keith)   Fix not handling inactive controllers correctly
+   -- bug (keith)   Fix handling of Not Connected serial outputs
+   -- bug (keith)   Fix xSchedule not applying global brightness correctly
+   -- enh (keith)   Add arduino code for physical button control of xSchedule - this is available from GitHub only ... it isnt installed.
+   -- enh (keith)   Add a run process to the scheduler that does not interrupt current playlist
+ -- Chris Debenham <chris@adebenham.com>  Fri, 24 Feb 2017 12:00:00 +1000
+
 xlights (2017.4) wily; urgency=medium
    -- bug (sean)    Include latest xSchedule.exe in release. 2017.3 had old version.
    -- enh (dkulp)   Add a couple "Per Model" render buffer styles to the ModelGroup render styles
