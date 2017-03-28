@@ -1,3 +1,40 @@
+xlights (2017.7) wily; urgency=medium
+   -- enh (keith)   Add prompted recovery of unsaved changes to rgbeffects
+   -- bug (keith)   Disable import effects if no sequence is open
+   -- enh (keith)   Add liquid effect
+   -- enh (keith)   Add ability for picture effect to play GIF files with their encoded timing and loop it
+   -- bug (keith)   Fix ArtNET universe 0 not saving
+   -- bug (keith)   Fix Glediator effect causing field errors
+   -- enh (keith)   Get x64 build working for Visual Studio.
+   -- enh (keith)   Get Vamp 64 bit working
+   -- enh (keith)   Scheduler - Add support for animated GIFs to image playlist item
+   -- bug (keith)   Scheduler - Fix crash on exit when using PJLink
+   -- bug (keith)   Scheduler - Fix matrix start channels not saving or able to set to > 100
+   -- enh (keith)   Add export/import of matrix, tree and dmx models
+   -- bug (keith)   Fix render progress bar not pressing properly
+   -- enh (keith)   Add value curve displaying value of point under mouse even when model isnt custom
+   -- bug (keith)   Fix schedule queueing
+   -- bug (keith)   Fix schedule blend modes
+   -- enh (keith)   Code SSE instructions for scheduler blend mode. Currently disabled.
+   -- enh (keith)   Enhance FPP connect to remember multiple FPP connection details
+   -- bug (keith)   Fix bug in model state corrupting rgbeffects file
+   -- enh (keith)   Enhance schedule api to allow playlists, steps, items, schedules and buttons to be identified by id
+   -- enh (keith)   All multiple model delete on layout tab. Only prompt to confirm if sequence is open with effects on that model
+   -- enh (keith)   Add support for xschedule web API using web sockets
+   -- enh (keith)   Let user decide if background playlist should play if nothing else is playing
+   -- enh (keith)   Add spatial color curve to shimmer effect
+   -- enh (keith)   Add model size matching to layout panel model right click menu
+   -- bug (keith)   Add missing text controls to fireworks and strobe effect settings.
+   -- enh (keith)   Add new implementation of shimmer effect algorithm which is more controllable and predicatable. The old algorithm is also available.
+   -- enh (keith)   Add support for the DDP protocol http://www.3waylabs.com/ddp/ - a very light weight ethernet protocol
+   -- enh (keith)   Add model export to Minleon Network Effects Controller file which can be loaded onto SD card
+   -- bug (keith)   Fix video display in xSchedule on OSX
+   -- enh (keith)   Add custom frame rates to new sequence setup
+   -- bug (keith)   Fix triangle wave left to right not working
+   -- bug (keith)   Fix some rounding issues that was throwing video timing off when aligned to audio track.
+   -- enh (billy)   Enhance scheduler web interface. More functionality. More responsive.
+ -- Chris Debenham <chris@adebenham.com>  Tue, 28 Mar 2017 12:00:00 +1000
+
 xlights (2017.6) wily; urgency=medium
    -- bug (dkulp)   Fix xScheduler logging on OSX
    -- enh (keith)   Add duration treatments to glediator effect
