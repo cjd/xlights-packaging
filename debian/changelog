@@ -1,3 +1,13 @@
+xlights (2017.7) wily; urgency=low
+   -- bug (dkulp)   Fix excessive rendering when pasting effects
+   -- enh (cjd)     Add direction setting for lightning effect. Fixes #830
+   -- enh (keith)   Add candle effect
+   -- bug (keith)   Fix superstar import picture scaling
+   -- bug (keith)   Fix LMS import into data layer off by 1 channel error
+   -- bug (keith)   Fix blanking between steps in scheduler
+   -- enh (keith)   Add timing event pulse and timing event jump 100 VUMeter effects
+ -- Chris Debenham <chris@adebenham.com>  Mon, 3 Apr 2017 12:00:00 +1000
+
 xlights (2017.7) wily; urgency=medium
    -- enh (keith)   Add prompted recovery of unsaved changes to rgbeffects
    -- bug (keith)   Disable import effects if no sequence is open
