@@ -1,4 +1,4 @@
-xlights (2017.7) wily; urgency=low
+xlights (2017.8) wily; urgency=low
    -- bug (dkulp)   Fix excessive rendering when pasting effects
    -- enh (cjd)     Add direction setting for lightning effect. Fixes #830
    -- enh (keith)   Add candle effect
