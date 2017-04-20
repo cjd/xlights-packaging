@@ -5,5 +5,3 @@ xlights source: source-is-missing bin/xScheduleWeb/js/bootstrap.min.js
 xlights source: source-is-missing bin/xScheduleWeb/js/bootstrap-slider.min.js
 xlights source: source-is-missing bin/xScheduleWeb/js/bootstrap-notify.min.js
 xlights source: source-is-missing bin/xScheduleWeb/js/bootstrap-colorpicker.min.js
-xlights source: source-is-missing lib/linux/qm-vamp-plugins-1.7-i686-linux/qm-vamp-plugins.so
-xlights source: source-is-missing lib/linux/qm-vamp-plugins-1.7-x86_64-linux/qm-vamp-plugins.so
