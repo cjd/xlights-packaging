@@ -1,3 +1,7 @@
+xlights (2017.12) wily; urgency=low
+   -- bug (sean)    Fix for Vamp plugins for 64 bit xLights. Web page updated to remove direct download of Vamp
+ -- Chris Debenham <chris@adebenham.com>  Sun, 30 Apr 2017 12:00:00 +1000
+
 xlights (2017.11) wily; urgency=low
    -- enh (sean)    Include 64 bit xSchedule.exe besides 32 bit xScheduler.exe
    -- bug (sean)    Fixed install directory for 32 bit xLights. Now files go into ../Program Files(x86)/xlights
