@@ -1,3 +1,30 @@
+xlights (2017.13) zesty; urgency=medium
+   -- bug (dkulp)   Only do the "outside -> in" render for the Tree model.  Fixes #573.
+   -- enh (cjd)     Output status messages to commandline when run in render mode
+   -- enh (gil)     New Color Manager Dialog so user can customize colors in the program.  Fixes #363.
+   -- enh (gil)     Add right-click option to correct aspect ratio of a Matrix model (equal width vs height spacing). Fixes #606.
+   -- enh (gil)     Custom model import will now keep submodels in original order instead of backwards.  Fixes: 787.
+   -- enh (gil)     Allow boxed models to be sized past the window boundary. Fixes #853.
+   -- enh (gil)     Add values curves to Galaxy Effect
+   -- bug (gil)     Fix effect slider not responding after effect was moved up or down a row.
+   -- bug (gil)     Fix bug where effect align start times or end times failed to work.
+   -- enh (gil)     Add 2 new effect alignment options
+   -- enh (dkulp)   Allow reverse order for SubModel node ranges (10-5 intead of 5-10). Fixes #852
+   -- enh (keith)   Rework sequence elements dialog box to get rid of the add window and make everything drag and
+   -- enh (keith)   Rework xlights/LOR/Vixen import mapping dialog to use drag and drop mapping
+   -- bug (keith)   Fix out of order universe handling in falcon controller upload
+   -- enh (keith)   Display model end channel in layout tab in similar format to start channel (along with absolute
+   -- enh (keith)   Add source size parameter to Liquid effect
+   -- bug (keith)   Fix group rename not fixing group names in open sequence
+   -- bug (keith)   Add back LOR import CCR level import
+   -- bug (keith)   Fix some potential crashes in FPP upload
+   -- enh (keith)   A bit of a speculative change ... optimise LOR output to only output changed data in each frame
+                    Looking at FPP and the protocol it looks like it will use and should make it run better when not
+                                        every channel changes every frame.
+   -- bug (keith)   Fix crash when audio files are opened in quick succession
+   -- enh (keith)   Allow multiple import of xpresets
+ -- Chris Debenham <chris@adebenham.com>  Wed, 10 May 2017 12:00:00 +1000
+
 xlights (2017.12) wily; urgency=low
    -- bug (sean)    Fix for Vamp plugins for 64 bit xLights. Web page updated to remove direct download of Vamp
  -- Chris Debenham <chris@adebenham.com>  Sun, 30 Apr 2017 12:00:00 +1000
