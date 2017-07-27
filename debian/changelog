@@ -1,3 +1,26 @@
+xlights (2017.20) zesty; urgency=low
+   -- bug (dkulp)   Old keybindings files can result in U/D/O problems when defaults are removed.
+   -- enh (keith)   Add value curves to sub-buffers
+   -- enh (keith)   Move audio file loading to its own thread to improve audio load time in scheduler. Eliminates the need to load and convert the entire file before the audio starts to play.
+   -- bug (keith)   Fix crash when importing a LOR timing track a second time.
+   -- bug (keith)   Fix check sequence erroneously flagging invalid start channel where universes are grouped as a single output.
+   -- bug (keith)   Fix value curve dialog wont accept keyboard input in text boxes and sliders
+   -- bug (keith)   Fix export models bulb counting
+   -- enh (keith)   Add simple current estimation to model export ... assumes 0.06A per node which would be normal for a typical white pixel at full power.
+   -- enh (keith)   Add a collapse all function to the row heading right click menu
+   -- bug (keith)   Fix schedule not playing past midnight
+   -- bug (keith)   Fix schedules not showing next time after they are edited
+   -- bug (keith)   Fix #876 renaming a model involved in start channel chaining breaks the chain
+   -- enh (keith)   Expand E6804 upload to also support the E682.
+   -- enh (keith)   Add decaying sine value curve
+   -- enh (keith & Gil) Add AC Sequencing mode
+   -- enh (keith)   Add a reverse nodes button to submodel dialog
+   -- bug (keith)   Fix picture effect position text boxes dont allow -100 entry
+   -- enh (keith)   Include some standard value curves in the distribution
+   -- bug (keith)   fix serial configuration upload to the falcon controllers. Also address expansion boards better.
+   -- enh (gil)     Add new option via menu setting so that double-click on a timing effect plays the audio for that duration.  Useful for creating/adjusting lyric timings.
+ -- Chris Debenham <chris@adebenham.com>  Wed, 26 Jul 2017 12:00:00 +1000
+
 xlights (2017.19) zesty; urgency=medium
    -- bug (dkulp)   Guard against submodels that result in 0 nodes that could
                     create gigantic buffers. Fixes #879
