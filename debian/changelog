@@ -1,3 +1,11 @@
+xlights (2017.21) zesty; urgency=high
+   -- enh (keith)   Add option to display fades as ramps on the On effect and Twinkle effect ... 
+                    mainly for use in AC mode
+   -- bug (keith)   Fix a bunch of bugs with AC mode
+   -- bug (keith)   Fix #882
+   -- bug (keith)   Fix problem with oversize buffers crashing xLights
+ -- Chris Debenham <chris@adebenham.com>  Fri, 28 Jul 2017 12:00:00 +1000
+
 xlights (2017.20) zesty; urgency=low
    -- bug (dkulp)   Old keybindings files can result in U/D/O problems when defaults are removed.
    -- enh (keith)   Add value curves to sub-buffers
