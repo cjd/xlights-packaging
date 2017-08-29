@@ -1,3 +1,27 @@
+xlights (2017.25) zesty; urgency=medium
+   -- enh (gil)     Improve effect selection so it selects effects with boundaries outside both edges of the selection.
+   -- enh (keith)   Add option to auto save your perspectives and keep them between show directories on the same machine
+   -- bug (keith)   Prevent invalid pixel split on falcon upload
+   -- enh (keith)   Remember submodel dialog size and position
+   -- enh (keith)   Add a simple snowflake shape
+   -- bug (chris)   Fix #900 ogg files not loading correctly
+   -- enh (keith)   Add ability to import LOR prop files as custom models
+   -- enh (keith)   Make scheduler slowy adjust synch with an FPP master instead of jumping
+ -- Chris Debenham <chris@adebenham.com>  Mon, 29 Aug 2017 12:00:00 +1000
+
+xlights (2017.24) zesty; urgency=medium
+   -- bug (gil)     Fix custom previews not showing correct background in House Preview window.
+   -- bug (gil)     Fix custom previews not initialized with correct brightness. Fixes #691.
+   -- enh (gil)     Make double-click in open grid work like it used to.
+   -- enh (gil)     Allow sequence timing to be changed in the GUI.
+   -- enh (craig)   xSchedule Add a tooltip for where the default root web directory is located
+   -- bug (dkulp)   Fix problem writing to fseq files that are larger than 2GB
+   -- enh (keith)   Add the Shape Effect
+   -- enh (keith)   Change value curves to use the true values of the setting they control.  This is major heart surgery once you save a sequence with a value curve in it in this version we strongly recommend you dont load it again in an older version of xlights.
+   -- enh (keith)   Increase maximum number of nodes per arch
+   -- enh (keith)   Increase maximum file size backed up
+ -- Chris Debenham <chris@adebenham.com>  Mon, 21 Aug 2017 12:00:00 +1000
+
 xlights (2017.23) zesty; urgency=medium
    -- enh (dkulp)   Add ability to specify starting location and direction for circle model
    -- enh (keith)   Add ability to manual edit effect timing - right click on an effect to access it
