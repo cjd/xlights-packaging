@@ -1,3 +1,7 @@
+xlights (2017.26-1) zesty; urgency=medium
+   -- fix debian package to no use README.corofaces.txt
+ -- Chris Debenham <chris@adebenham.com>  Wed, 6 Sep 2017 12:00:00 +1000
+
 xlights (2017.26) zesty; urgency=medium
    -- bug (gil)     Fix issue where playback can hang when selecting an effect.
    -- bug (gil)     Fix some picture effects not displaying in the correct place
