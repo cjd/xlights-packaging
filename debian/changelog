@@ -1,3 +1,10 @@
+xlights (2017.27) zesty; urgency=high
+   -- fix debian package to no use README.corofaces.txt
+   -- bug (keith)   Fix falcon upload only uploading enough pixels for first model on a chained output
+   -- enh (keith)   Add LMS timing import
+   -- bug (keith)   Fix value curves not sticking
+ -- Chris Debenham <chris@adebenham.com>  Thu, 7 Sep 2017 12:00:00 +1000
+
 xlights (2017.26-1) zesty; urgency=medium
    -- fix debian package to no use README.corofaces.txt
  -- Chris Debenham <chris@adebenham.com>  Wed, 6 Sep 2017 12:00:00 +1000
