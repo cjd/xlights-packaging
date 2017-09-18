@@ -1,3 +1,30 @@
+xlights (2017.28) zesty; urgency=high
+   -- bug (dkulp)   Fix crash on startup when ViesModelsPanel is not visible
+   -- bug (scottH)  Fixed Divide by zero error if main window is re-sized too small. (#913)
+   -- enh (keith)   Add ability to import LAS files ... actually this existed ... it just wasnt selectable
+   -- bug (keith)   Add warning if i am importing a datalayer that is bigger than the number of xlights channels
+   -- enh (keith)   Add a xSchedule file play list item which can write information about current song etc to a file 
+   -- bug (dkulp)   OSX - Popup menu in "WiringView" dialog is completely disabled
+   -- bug (keith)   Fix crash when change setup and then switch to layout
+   -- bug (keith)   Fix crash when FPP master xschedule step finishes
+   -- enh (keith)   Add creation of a phoneme track from channel data
+   -- enh (keith)   Add model locking
+   -- bug (keith)   Force value curves to update to real values ... it wasnt doing this which may have masked some issues
+   -- enh (keith)   Add row heading tooltips where the model names are too wide to display
+   -- enh (keith)   Add ability to display wiring view from the front
+   -- enh (keith)   Add wiring views for most inbuilt models
+   -- bug (keith)   Validate serial controller number of channels
+   -- enh (keith)   Add ability to extract Phonemes from imported single channel face data
+   -- bug (keith)   Fix timing track labels dont save if added to a fixed timing track
+   -- bug (keith)   Generated submodels leave gaps on large models - overlaps are better than gaps
+   -- bug (keith)   Rename "Output #" column on setup tab to just "Number" to try to address some new user confusion
+   -- enh (keith)   Add optional auto hide show of house preview when playing
+   -- enh (keith)   Add Make master capability to display elements which can take any view and copy its definition to the master view
+   -- enh (keith)   Tag start channels with leading *** where the number has not calculated correctly
+   -- bug (keith)   Prevent duplicate model start calculation errors from displaying
+   -- enh (keith)   Add time display to play controls toolbar on house preview
+ -- Chris Debenham <chris@adebenham.com>  Tue, 19 Sep 2017 12:00:00 +1000
+
 xlights (2017.27) zesty; urgency=high
    -- fix debian package to no use README.corofaces.txt
    -- bug (keith)   Fix falcon upload only uploading enough pixels for first model on a chained output
