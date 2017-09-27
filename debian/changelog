@@ -1,3 +1,7 @@
+xlights (2017.29-2) zesty; urgency=high
+   -- New build method
+ -- Chris Debenham <chris@adebenham.com>  Tue, 26 Sep 2017 12:00:00 +1000
+
 xlights (2017.29) zesty; urgency=high
    -- bug (keith)   Fix regular crash due to slow rendering. This bug was introduced in 2017.28
    -- enh (cjd)     Add option to run xschedule via xlights on linux (for AppImage usage)
