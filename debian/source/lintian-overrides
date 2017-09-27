@@ -8,3 +8,7 @@ xlights source: source-is-missing bin/xScheduleWeb/js/bootstrap-colorpicker.min.
 xlights source: source-is-missing lib/linux/qm-vamp-plugins-1.7/qm-vamp-plugins.so.x86_64
 xlights source: source-is-missing lib/linux/qm-vamp-plugins-1.7/qm-vamp-plugins.so.i686
 xlights source: native-package-with-dash-version
+xlights source: source-is-missing bin/xScheduleWeb/js/pagePlaylists.js line length is 271 characters (>256)
+xlights source: source-is-missing wxWidgets-3.1.0/samples/flash/animation.swf
+xlights source: source-is-missing wxWidgets-3.1.0/samples/flash/form.swf
+xlights source: source-contains-prebuilt-ms-help-file wxWidgets-3.1.0/samples/help/doc.chm
