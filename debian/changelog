@@ -1,3 +1,24 @@
+xlights (2017.30) zesty; urgency=high
+   -- enh (scottH)  Added Swap Start and End Points to Morph Effect.
+   -- enh (keith)   Add printing of wiring view
+   -- enh (keith)   Add display of actual time in value curve and color curve dialogs.
+   -- bug (dkulp)   Prevent crash when perspective is chosen from menu prior to flipping to the sequencer tab
+   -- bug (dkulp)   Fix memory leak in JobPool that was leaking thread objects consuming resources
+   -- enh (keith)   Add X and Y axis rotations to rotozoom
+   -- bug (keith)   Fix xlights not opening fseq files
+   -- bug (keith)   Fix zoom value curve not converting correctly
+   -- enh (keith)   Add splash screen courtesy Kevin Pankratz
+   -- enh (keith)   Add ctrl-. and ctrl-/ save and restore position in the sequencer
+   -- enh (keith)   Add crtl-shift 0-9 which jump to 0%-90% through the song in the sequencer
+   -- enh (keith)   Add tags using right click on the timeline ... then use ctrl-0-9 to jump to the tags
+   -- enh (gil)     Add built-in bitmap Fonts that match SuperStar.  Not every option works on these fonts but they do allow the color palette to be used.
+   -- bug (gil)     Fix Convert for LOR files being offset by 1.  Fixes #916.
+   -- enh (dkulp)   Optimize loading of test presets to make xLights start quicker
+   -- bug (dkulp)   Hopefully fix crash in CheckSequence if hostname doesn't resolve to local ip address
+   -- enh (keith)   Add new Ctrl left and right arrow and Ctrl Shift left and right arrow shortcuts in sequencer to move and expand effects to timing marks or next effect
+   -- bug (keith)   Fix problem with allocating too few channels if invalid start channels and not enough channels on setup tab
+ -- Chris Debenham <chris@adebenham.com>  Sat, 30 Sep 2017 12:00:00 +1000
+
 xlights (2017.29) zesty; urgency=high
    -- bug (keith)   Fix regular crash due to slow rendering. This bug was introduced in 2017.28
    -- enh (cjd)     Add option to run xschedule via xlights on linux (for AppImage usage)
