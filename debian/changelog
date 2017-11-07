@@ -1,3 +1,22 @@
+xlights (2017.35) zesty; urgency=medium
+   -- enh (cjd)     Update checker for Linux and OSX
+   -- enh (dkulp)   Set the thread name to the Model name it is rendering, makes it easier to find the right thread in the debugger
+   -- enh (dkulp)   Add a warning when loading/creating sequences that would result in massive amounts of memory being used
+   -- enh (dkulp)   Add batch render to tools menu
+   -- bug (keith)   Fix missing distribute horizontally and vertically in layout
+   -- bug (keith)   Force recreation of the render buffer if the frame size changes ... this will then require a full render
+   -- bug (keith)   Fix PJLink
+   -- enh (keith)   Add the ability to suppress virtual matrices if showing video or images.
+   -- bug (keith)   Fix FPP connect not enabling upload when IP address is entered.
+   -- enh (keith)   Add an option to shrink the waveform display
+   -- enh (keith)   Improve positioning in printing wiring view to avoid cutoff.
+   -- enh (keith)   Add keyboard cut & paste to custom model dialog
+   -- bug (keith)   Colour curve does not display position tooltip unless dragging
+   -- bug (keith)   Fix pixelnet should support 4096 channels.
+   -- enh (keith)   Add crucifix to shape effect
+   -- bug (keith)   Fix submodel start channels displaying incorrectly as invalid.
+ -- Chris Debenham <chris@adebenham.com>  Sun, 5 Nov 2017 12:00:00 +1000
+
 xlights (2017.34) zesty; urgency=medium
    -- enh (keith)   Add a dead pixel colour output process to xSchedule which only blanks a pixel if the colour would be wrong
    -- enh (keith)   Add the ability to disable output processes
