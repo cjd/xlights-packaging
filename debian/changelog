@@ -1,3 +1,24 @@
+2017.37  Nov 14, 2017
+xlights (2017.37) zesty; urgency=high
+   -- enh (dkulp) If dimming curve would map to identity, remove it to avoid the extra processing it entails
+   -- enh (keith) Add ESCAPE key abort generate custom model scanning.
+   -- enh (keith) Prevent corruption of face info in rgbeffects
+   -- enh (keith) Add artnet to fpp connect upload
+   -- enh (dkulp) Fix Text effect crash on Windows only if mulitple colors are selected.  Fixes #982
+   -- enh (dkulp) If updating the palette of settings of a LOT of effects, aggregate the render events.  Speeds it up a lot.
+ -- Chris Debenham <chris@adebenham.com>  Tue, 14 Nov 2017 12:00:00 +1000
+
+xlights (2017.36) zesty; urgency=medium
+   -- enh (dkulp)   Add multicolor suppport for non-rotated text
+   -- enh (dkulp)   Allow user to change number of universes in an e131 multi universe output
+   -- bug (scotth)  Remove layer count from group lines in preset list
+   -- bug (gil)     Fix motion positions for XL fonts in Text effect.
+   -- enh (keith)   Move xSchedule video reading to a separate thread ... should make video performance more reliable but will use more of memory
+   -- enh (keith)   Add packets per second display to scheduler UI
+   -- bug (keith)   Strip duplicate test presets on load ... not sure how they got there but dont load them.
+   -- enh (keith)   Add to check sequence check for overlapping effects ... these should not be possible but I have seen some sequences where is has happened.
+ -- Chris Debenham <chris@adebenham.com>  Mon, 13 Nov 2017 12:00:00 +1000
+
 xlights (2017.35) zesty; urgency=medium
    -- enh (cjd)     Update checker for Linux and OSX
    -- enh (dkulp)   Set the thread name to the Model name it is rendering, makes it easier to find the right thread in the debugger
