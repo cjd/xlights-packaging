@@ -1,4 +1,3 @@
-2017.37  Nov 14, 2017
 xlights (2017.37) zesty; urgency=high
    -- enh (dkulp) If dimming curve would map to identity, remove it to avoid the extra processing it entails
    -- enh (keith) Add ESCAPE key abort generate custom model scanning.
