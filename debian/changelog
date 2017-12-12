@@ -1,3 +1,44 @@
+xlights (2017.41) zesty; urgency=high
+   -- bug (dkulp)  Delay actually deleting effects and layers until the end of render to avoid potential crashes.
+   -- bug (dkulp)  Work on making sure selections are cleared bbefore effects are deleted
+   -- enh (dkulp)  Add undo to Delete Row Effects
+   -- bug (keith)  Fix some problems with vertical matrices in xSchedule
+   -- enh (keith)  Add some fast deleting of effects on a layer/model
+   -- bug (keith)  Fix a possible race condition when updating effect settings
+   -- enh (keith/dkulp) Add model as a pixel render style for model groups ... treats models within the group as a single pixel
+   -- bug (keith)  Prevent warnings about autosave newer than sequence after batch render
+   -- enh (keith)  Save selected batch render items between runs of batch render
+   -- enh (keith)  Add selectable audio devices on windows for xSchedule
+   -- bug (craig)  Fix the output of the xScheduleData/GetModels.dat file format as json
+   -- enh (scotth) Added Tree, Crucifix, Present, Candy Cane, Snowflake, and Heart Shapes to the VU Effect
+   -- bug (dkulp)  Fix dimming curves that are different for R/G/B
+   -- bug (dkulp)  Fix debug build popups on rendering on Linux
+   -- bug (dkulp)  Fix crash on text effect on Linux (fonts still look crappy)
+   -- enh (scott)  Warn windows 64 bit computer users using 32 bit that they should move to 64 bit
+   -- bug (scott)  Fix FPP connect wont upload sequences in subdirectories
+   -- enh (scott)  Add all the shape effect shapes to the VU Meter shape modes
+   -- bug (keith)  Fix xSchedule text properties not working in API
+   -- bug (keith)  Fix a number of problems with xSchedule channel constraints not saving
+   -- bug (keith)  Fix xSchedule fast start audio does not respect per song volume setting
+   -- bug (keith)  Fix virtual matrices not working reliably or correctly in xschedule
+   -- enh (keith)  Allow play list buttons like play schedule to work even if a schedule for that playlist is selected 
+   -- enh (keith)  Add delete all effects on a layer or a model
+   -- bug (keith)  Fix some bugs in calculating pixels for some vertical matrices in xSchedule
+ -- Chris Debenham <chris@adebenham.com>  Mon, 11 Dec 2017 12:00:00 +1000
+
+xlights (2017.40) zesty; urgency=high
+   -- enh (keith)  Add support for #universe:startchannel and output:startchannel to all xSchedule fields that define a start channel
+   -- bug (keith)  Fix test dialog tooltips dont display correct models
+   -- bug (keith)  Remove Master View from the new sequence default views
+   -- enh (dkulp)  Add undo to update effect and update palette actions
+   -- enh (rich)   Fix xSchedule web doesnt like spaces in some url parameters #1000
+   -- bug (scotth) Fix spinner calculate incorrect number of nodes #1008
+   -- bug (scotth) Fix bulk render doesnt like xml files in subdirectories
+   -- bug (keith)  Ensure all lights are off when xSchedule closes
+   -- enh (keith)  Add active timing marks to Value Curve and Colour Curve dialogs so you can line things up easier
+   -- bug (keith)  Fix xSchedule test mode does not display A-B-C-ALL and some other patterns correctly
+ -- Chris Debenham <chris@adebenham.com>  Tue, 5 Dec 2017 12:00:00 +1000
+
 xlights (2017.39) zesty; urgency=high
    -- bug (dkulp) Fix some memory leaks when open/close sequences as well as switching show directories
    -- enh (dkulp) Import Superstar files onto a submodel
