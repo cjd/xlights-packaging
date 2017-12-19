@@ -1,3 +1,13 @@
+xlights (2017.42) zesty; urgency=low
+   -- bug (gil)    Fix bars gradient option when not alpha blending.  Fixes #1032.
+   -- bug (keith)  Fix xschedule text on single string vertical matrices
+   -- bug (keith)  Fix xmap node level mappings not loading from file correctly
+   -- enh (keith)  Add option to turn model blending off by default in new sequences
+   -- enh (keith)  Detect low proportion duplicate nodes in custom models indicating possible accidental duplication of nodes
+   -- enh (keith)  Ctrl-S works on all tabs as a shortcut to the relevant save button
+   -- enh (keith)  Warn users when they switch to a backup show folder. Also highlight in check sequence.
+ -- Chris Debenham <chris@adebenham.com>  Mon, 18 Dec 2017 12:00:00 +1000
+
 xlights (2017.42) zesty; urgency=high
    -- enh (chris)   Enable automatic application of patch for wxwidgets on linux
    -- bug (chris)   Separate patches for wxwidgets on linux so can handle fixes for http://trac.wxwidgets.org/ticket/17683 and https://trac.wxwidgets.org/ticket/18021
