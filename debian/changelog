@@ -1,3 +1,9 @@
+xlights (2017.44) zesty; urgency=low
+   -- bug (dkulp)  Fix keyboard handling of numbers
+   -- enh (keith)  Add visual clue that xSchedule is serving web requests
+   -- bug (keith)  Add handling of mixed audio rates on windows/linux
+ -- Chris Debenham <chris@adebenham.com>  Tue, 19 Dec 2017 12:00:00 +1000
+
 xlights (2017.43) zesty; urgency=low
    -- bug (gil)    Fix bars gradient option when not alpha blending.  Fixes #1032.
    -- bug (keith)  Fix xschedule text on single string vertical matrices
