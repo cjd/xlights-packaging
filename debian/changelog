@@ -1,4 +1,4 @@
-xlights (2017.42) zesty; urgency=low
+xlights (2017.43) zesty; urgency=low
    -- bug (gil)    Fix bars gradient option when not alpha blending.  Fixes #1032.
    -- bug (keith)  Fix xschedule text on single string vertical matrices
    -- bug (keith)  Fix xmap node level mappings not loading from file correctly
