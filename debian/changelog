@@ -1,3 +1,26 @@
+xlights (2018.2) zesty; urgency=medium
+   -- enh (dkulp)  Add House/Model preview and play controls to TouchBar
+   -- update (dkulp) Change minimum OSX requirement to 10.10
+   -- enh (dkulp)  Support exporting model to LOR S5 clipboard file
+   -- enh (k.mojek) Add "Export House Preview Video" to File menu
+   -- enh (gil)    Add Snap to Timing Marks feature.  Turn this on in Settings.  Only works for single effect resizing.  Fixes #132.
+   -- enh (gil)    Make snap to timing mark feature temporary toggle using control key.
+   -- bug (gil)    Prevent error message when importing ISEQ data layer not in show directory.  Fixes #1047.
+   -- bug (gil)    Make sure all models are available when creating new Views.  Fixes #1049.
+   -- bug (gil)    Fix Bulk Edit crash when right-clicking a TextEdit box.
+   -- enh (gil)    Correct certain scenarios of right/left arrow move/stretch operations and simplify Single vs Multiple effect movement.
+   -- bug (gil)    Fix PolyLine crash for case of 3 Channel RGB with Individual Start Channels set.
+   -- bug (keith)  Fix eseq frame size rounded by 4 when it shouldnt be.
+   -- bug (keith)  Newly created schedule doesnt play immediately
+   -- bug (keith)  Reset schedule does not reset
+   -- enh (keith)  Add a reset all schedules function to xschedule
+   -- bug (keith)  Fix cant double click on first song in a playlist to jump to it
+   -- enh (keith)  Add number aware model name sorting (layout, display elements, import effects)
+   -- enh (keith)  Enhance handling of invalid mappings loaded from mapping files so mappings are not lost when saved and invalid mappings are highlighted
+   -- enh (keith)  Add download of vendor custom models from licensed vendors
+   —- enh (Billy)  Added Controller Status to xSchedule WebUI
+ -- Chris Debenham <chris@adebenham.com>  Mon, 15 Jan 2018 12:00:00 +1000
+
 xlights (2018.1) zesty; urgency=medium
    -- enh (k.mojek) Add "Print Layout" option to Layout popup menu
    -- enh (dkulp)  Add WRGB 4 channel node type
