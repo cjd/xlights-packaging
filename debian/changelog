@@ -1,3 +1,26 @@
+xlights (2018.3) zesty; urgency=medium
+   -- enh (dkulp)  Bunch of render optimizations, particularly for groups with large number of models                      
+   -- enh (dkulp)  Bunch of startup optimizations - don't load rgbeffects.xml twice                                        
+   -- enh (scott)  Added Ctrl-A to Selects all Effects in a Sequence.                                                      
+   -- enh (scott)  Add Select Row Effects to Sequencer Row Right Click Menu.                                               
+   -- enh (gil)    Added a DMX Flood option to the DMX Model.                                                              
+   -- enh (gil)    Allow the rotate handle to Spin the DMX Model when in 3D mode.                                          
+   -- bug (gil)    Fixed a LOR S4 clipboard export model issue.                                                            
+   -- enh (keith)  Add an image model                        
+   -- bug (keith)  Fix listbox column sizing in the model group panel                                                      
+   -- bug (keith)  Fix issues with mapping dialog            
+   -- bug (keith)  Fix performance issue with setup tab when contains large number of universes                            
+   -- enh (keith)  Fix default model start channel to always be 1 channel after the model with the highest ending channel  
+   -- bug (keith)  Fix some text controls not updating associated sliders                                                  
+   -- enh (keith)  Display in tooltip current effect being rendered in render progress dialog ... if it gets stuck you will know                         
+                   which effect is to blame                  
+   -- enh (keith)  Fix #1010 - If user cancels nominating a valid show directory xLights should exit.                      
+   -- bug (keith)  Fix xSchedule incorrectly calculates virtual model end when checking if it fits within channel range    
+   -- bug (keith)  More improvements to number aware sorting which was not handling number sorts where more than the number
+                   component were different                  
+   -- bug (keith)  Circular model start channel references was hanging xLights                                             
+ -- Chris Debenham <chris@adebenham.com>  Sun, 21 Jan 2018 12:00:00 +1000
+
 xlights (2018.2) zesty; urgency=medium
    -- enh (dkulp)  Add House/Model preview and play controls to TouchBar
    -- update (dkulp) Change minimum OSX requirement to 10.10
