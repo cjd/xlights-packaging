@@ -1,3 +1,29 @@
+xlights (2018.4) zesty; urgency=medium
+   -- bug (Billy)  Fixed xScheduleWeb to display proper version number
+   -- bug (dkulp)  Fix convert to effects not recognizing down ramps that hit th e last frame
+   -- bug (dkulp)  Fix problems with LOR v4 lcb only outputting 100% effect valu es
+   -- bug (dkulp)  Convert To Effects only working for first node in model
+   -- bug (dkulp)  CandyCane tops are chopped off in Model preview
+   -- bug (dkulp)  CheckSequence erroneously flags 172.16 networks as broadcast. Fixes #1084
+   -- bug (dkulp)  Fix problem with individual start channels on strings cannot self reference
+   -- enh (craig)  Randomize only effect settings with a lock available.
+   -- bug (keith)  Fix the arches model when start is set to the blue square
+   -- enh (keith)  Force xtimging import to round down timing mark times if they occur between frames
+   -- enh (keith)  Add the ability to include multiple timings in a single xTiming file
+   -- enh (keith)  Add event triggers to scheduler which trigger command execution. Triggers available:
+                                                - On a channel value in the running sequence
+                                                - On a channel in a received E131 packet
+                                                - On a channel in a received ArtNet packet
+                                                - On a channel in a received DMX packet from a serial connection
+                                                - On a channel in a received OpenDMX packet from a serial connection - this looks like it will be less reliable than DMXModel
+                                                - On a OSC message
+                                                - On a FPP event
+        -- enh (keith) Add ability to send a FPP Event in a playlist step
+        -- enh (keith) Add ability to send to a serial device in a playlist step
+        -- enh (keith) Rework FPP/OSC remote so it works correctly with new event model and add ARTNet timecode support
+        -- enh (keith) Add magic fixes for overlapping channels and illegal start channels
+ -- Chris Debenham <chris@adebenham.com>  Tue, 30 Jan 2018 12:00:00 +1000
+
 xlights (2018.3) zesty; urgency=medium
    -- enh (dkulp)  Bunch of render optimizations, particularly for groups with large number of models                      
    -- enh (dkulp)  Bunch of startup optimizations - don't load rgbeffects.xml twice                                        
