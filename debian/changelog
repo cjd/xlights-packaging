@@ -1,3 +1,24 @@
+xlights (2018.6) zesty; urgency=medium
+   -- enh (gil)    Add LOR event to xSchedule which should work with the Input Pup board.
+   -- enh (gil)    Update LOR events to work with multiple cards on one port.
+   -- bug (gil)    Fix model list in layout freezing.  Fixes #1090.
+   -- enh (gil)    Don't draw DMX head beams as white when color is black unless in Layout.
+   -- bug (gil)    Fix DMX Flood not drawing in correct location.  Fixes #1092.
+   -- enh (dkulp)  Bunch of updates to DDP output to allow future enhanced output to FPP
+   -- bug (dkulp)  Fix some render issues and crashes that occur after making changes to setup tab
+   -- enh (scott)  Add Effect Select Panel.
+   -- enh (keith)  xSchedule will now stop at the end of the FSEQ if it is shorter than the audio file
+   -- bug (keith)  Fix vendor model download only allows model to be used once
+   -- bug (keith)  When layout panel first opened models wont select
+   -- bug (keith)  Fix 172.17.*.* - 172.31.*.* ip addresses incorrectly reported as internet routable
+   -- enh (keith)  When configuring screen map in xSchedule show the area being mapped
+   -- enh (keith)  Increase Value Curve/Colour curve resolution from 40 to 100
+   -- enh (keith)  Improve the speed of number aware sort
+   -- enh (keith)  Rework the window frame model to allow it to go CW and CCW.  This may break some existing models
+   -- enh (keith)  Check sequence to detect effects dropped on strands, submodels and models with no nodes
+   -- bug (scott)  Fixed FPP Connect USB Drive Upload
+ -- Chris Debenham <chris@adebenham.com>  Fri, 23 Feb 2018 12:00:00 +1000
+
 xlights (2018.5) zesty; urgency=medium
    -- enh (gil)    Added a new LOR output that allows xLights to control CCRs, Pixies, and other
                    existing controllers to run on a LOR network (LOR USB dongle).
