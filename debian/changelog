@@ -1,4 +1,15 @@
-xlights (2018.7.3) zesty; urgency=medium
+xlights (2018.8) zesty; urgency=medium
+   -- bug (dkulp)  "Black" static text labels on Windows
+   -- enh (dkulp)  Initial support for HiDPI displays on Windows
+   -- enh (gil)    Improve phoneme placement when breaking down words.
+   -- enh (keith)  Add a canvas blend mode and a transparent option to the off effect which will often be used together
+   -- bug (keith)  Fix FPP event not being recognised by FPP
+   -- enh (keith)  Add the option to loop event playlists when you start them
+   -- bug (keith)  Stop all doesnt stop event playlists
+   -- bug (keith)  Log illegal key bindings
+ -- Chris Debenham <chris@adebenham.com>  Fri, 16 Mar 2018 12:00:00 +1000
+
+xlights (2018.7) zesty; urgency=medium
    -- enh (k.mojek) Add display of video when sequencing using a video track for the audio               
    -- enh (all)    Move to wxWidgets 3.1.1 on all platforms ... also codeblocks and gcc version upgrades on windows                                                                                                
    -- enh (keith)  Rework test dialog to better support large shows                                      
