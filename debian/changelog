@@ -1,7 +1,6 @@
 xlights (2018.10) zesty; urgency=medium
    -- enh (cjd)    Add -c/-x options to run xCapture/xSchedule via main binary on linux
-   -- bug (dkulp)  The "skips" in the Marquee effect should be "clear", not
-black 
+   -- bug (dkulp)  The "skips" in the Marquee effect should be "clear", not black 
    -- enh (keith)  Add xSchedule event which fires when a controller becomes unreachable
    -- bug (keith)  Some fixes to value curves with divisors
    -- bug (keith)  Fixes to x/y shape position value curves
