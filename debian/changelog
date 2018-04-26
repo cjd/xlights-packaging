@@ -1,3 +1,13 @@
+xlights (2018.11) zesty; urgency=medium
+   -- enh (dkulp)  Add ability to upload string/dmx configs for various FPP v2 Capes/Hats
+   -- enh (dkulp)  Update FPP to support v2 channel input and output configs
+   -- enh (keith)  Add the ability to select the layers included in Canvas blend mode
+   -- bug (keith)  Rework the value curve fix
+   -- bug (keith)  Some fixes to FPP event sending in xSchedule
+   -- bug (keith)  Fix test mode RGB modes
+   -- bug (keith)  Fix some xSchedule crashes
+ -- Chris Debenham <chris@adebenham.com>  Sat, 14 Apr 2018 12:00:00 +1000
+
 xlights (2018.10) zesty; urgency=medium
    -- enh (cjd)    Add -c/-x options to run xCapture/xSchedule via main binary on linux
    -- bug (dkulp)  The "skips" in the Marquee effect should be "clear", not black 
