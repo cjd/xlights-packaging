@@ -1,3 +1,9 @@
+xlights (2018.13) bionic; urgency=high
+   -- bug (scott)  Fix an issue with xml/fseq saving
+   -- bug (keith)  Fix music download doesnt show artist tag
+   -- enh (keith)  Add ability to periodically schedule a playlist within a time interval - hourly, half hourly, etc
+ -- Chris Debenham <chris@adebenham.com>  Sat, 11 May 2018 12:00:00 +1000
+
 xlights (2018.12) zesty; urgency=medium
    -- enh (dkulp)  Support for 4 channel pixel strings (RGBW variants)
    -- enh (dkulp)  Allow specifying how to handle mapping of RGB -> RGBW
