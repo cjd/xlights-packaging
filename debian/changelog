@@ -1,3 +1,19 @@
+xlights (2018.14) bionic; urgency=medium
+   -- enh (keith)  Add select/copy/paste all effects on a model
+   -- enh (keith)  Add windows check for newer version
+   -- enh (keith)  Add search to sequences/lyrics download
+   -- enh (keith)  Add CSV format to Glediator effect. Each line is a frame, each column is a channel.
+   -- bug (keith)  Fix image model does not work in a group correctly
+   -- enh (keith)  Add ability to syncronise shape effects
+   -- bug (keith)  Add fixes to keep available render buffers correct
+   -- enh (keith)  Add white channel support to the DMX model
+   -- enh (keith)  Add video render caching to eliminate the need to continually shrink large videos
+   -- enh (keith)  Add support for sunrise and sunset to schedule
+   -- bug (keith)  Fix some anomalies with resetting schedules
+   -- bug (scott)  Fix for new sequence files saving in the FSEQ folder not the show folder
+   -- enh (scott)  Added File Read option to Text Playlist Item in xSchedule
+ -- Chris Debenham <chris@adebenham.com>  Wed, 23 May 2018 12:00:00 +1000
+
 xlights (2018.13) bionic; urgency=high
    -- bug (scott)  Fix an issue with xml/fseq saving
    -- bug (keith)  Fix music download doesnt show artist tag
