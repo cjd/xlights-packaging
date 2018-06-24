@@ -1,3 +1,43 @@
+xlights (2018.17) bionic; urgency=medium
+   -- enh (kevin)  Add 'circular swirl' to warp effect
+   -- enh (kevin)  Add 'drop' to warp effect
+   -- enh (kevin)  Add 'wavy' to warp effect
+   -- bug (kevin)  Fix issues with warp effect panel
+   -- bug (keith)  Some xFade fixes and improved UI information
+   -- bug (keith)  Fix layered RGB star doesnt render more than 1 node
+   -- enh (keith)  Add display of % location in morph effect assist
+   -- bug (keith)  Some tweaks to wiring view display
+   -- enh (keith)  Some jukebox configuration improvements
+   -- enh (keith)  Add advance button to xFade for shows on rails
+   -- bug (keith)  Fix blank city name sunrise/set crash
+   -- enh (keith)  Recognise sunup and sundown and similies for sunset and sunrise
+   -- enh (scott)  Submodel import should skip submodels that already exist in the model
+   -- enh (keith)  For multiple firing schedule make the fire time relative the the schedule start time.
+   -- bug (keith)  Fix some issues with multi-firing schedules.
+   -- enh (keith)  Add activate and deactivate a schedule via an API call to xSchedule
+   -- enh (keith)  Add a microphone playlist item to xSchedule to set pixel colors in real time
+   -- enh (keith)  Add ability to make black transparent in video, pictures and matrix faces
+   -- bug (keith)  Fix servo effect values incorrect
+   -- bug (keith)  Fix bulk edit doesnt work on effects with two word names
+   -- bug (keith)  Loading sequence to non existing model wont map to strands or submodels
+ -- Chris Debenham <chris@adebenham.com>  Sun, 24 June 2018 12:00:00 +1000
+
+xlights (2018.16) bionic; urgency=medium
+   -- enh (kevin)  Added warp effect for use with canvas blend style 
+   -- enh (scott)  Added Vixen FSEQ File Support to xSchedule
+   -- enh (dkulp)  Scale bitmap buttons for locks/value curves, color panels on HiDPI screens
+   -- enh (dkulp)  New high-res lock/unlock icons
+   -- enh (dkulp)  Initial support for using system background colors
+   -- bug (dkulp)  TouchBar forward/back buttons reversed
+   -- enh (scott)  Added "Copy", "Import from Model", and "Import from File" Buttons to the Submodel Dialog.
+                                        - Copy The Currently Selected SubModel.
+                                        - Import SubModels from another Model.
+                                        - Import SubModels from a xmodel files.
+   -- enh (keith)  Add xFade 
+   -- bug (keith)  Windows update does not directly download zip file
+   -- bug (keith)  xCapture doesnt filter out non ArtDMX packets
+ -- Chris Debenham <chris@adebenham.com>  Sun, 17 June 2018 12:00:00 +1000
+
 xlights (2018.15) bionic; urgency=medium
    -- enh (dkulp)  Big speedup for Canvas mode
    -- enh (keith)  Add PixelEditor import
