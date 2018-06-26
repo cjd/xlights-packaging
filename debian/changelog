@@ -1,4 +1,4 @@
-xlights (2018.18) bionic; urgency=high
+xlights (2018.18.1) bionic; urgency=high
    -- bug (keith)  Fix audio wont stop playing
    -- enh (keith)  Add support for Falcon F48
  -- Chris Debenham <chris@adebenham.com>  Mon, 25 June 2018 12:00:00 +1000
