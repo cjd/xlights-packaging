@@ -1,4 +1,24 @@
-xlights (2018.18.1) bionic; urgency=high
+xlights (2018.20) bionic; urgency=medium
+   -- bug (keith)  Fix warp treatment flips to constant
+   -- bug (keith)  Fix bulk edit crash
+   -- bug (keith)  Fix changing audio speed starts audio playback
+   -- enh (scott)  Enhance submodel copy to prompt about overwriting like named submodels
+   -- bug (scott)  Prevent blank submodel names
+ -- Chris Debenham <chris@adebenham.com>  Mon, 2 July 2018 12:00:00 +1000
+
+xlights (2018.19) bionic; urgency=medium
+   -- bug (keith)  Fix warp treatment flips to constant
+   -- bug (keith)  Fix bulk edit crash
+   -- bug (keith)  Fix submodel dialog crash
+   -- bug (keith)  Fix mapping to strands does not work after a model is renamed
+   -- bug (keith)  Fix unmask blend style so it doesnt turn black areas white
+   -- bug (keith)  Change the way rendering is triggered to try to stop some crashes
+   -- enh (keith)  Add value curves to marquee
+   -- enh (keith)  Fully script the windows release process
+   -- enh (keith)  Optimise xSchedule performance
+ -- Chris Debenham <chris@adebenham.com>  Sat, 30 June 2018 12:00:00 +1000
+
+xlights (2018.18) bionic; urgency=high
    -- bug (keith)  Fix audio wont stop playing
    -- enh (keith)  Add support for Falcon F48
  -- Chris Debenham <chris@adebenham.com>  Mon, 25 June 2018 12:00:00 +1000
