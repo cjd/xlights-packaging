@@ -1,3 +1,7 @@
+xlights (2018.30.1) bionic; urgency=high
+   -- bug (cjd)    Rebuild due to partial logging fix
+ -- Chris Debenham <chris@adebenham.com>  Wed, 29 Aug 2018 12:00:00 +1000
+
 xlights (2018.30) bionic; urgency=medium
    -- bug (kevin)  Fix house preview video export on Windows with high DPI settings
    -- enh (keith)  Change the colour panel update button to purely apply the colour palette. All other colour settings are ignored.
