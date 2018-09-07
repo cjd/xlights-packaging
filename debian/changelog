@@ -1,3 +1,22 @@
+xlights (2018.33) bionic; urgency=medium
+   -- enh (dkulp)  Bunch of performance updates for Test dialog on OSX
+   -- bug (keith)  FPP Upload extra logging and delete any existing file before upload
+   -- bug (keith)  Change the way we detect falcon model/version as 2.01 firmware broke it
+   -- bug (keith)  Fix hang selecting model group on layout panel
+ -- Chris Debenham <chris@adebenham.com>  Fri, 7 Sep 2018 12:00:00 +1000
+
+xlights (2018.32) bionic; urgency=medium
+   -- enh (scott)  Added Node Select Dialog to the SubModel, Faces, and State Dialogs
+   -- enh (scott)  Added import/export to colour manager dialog
+   -- bug (keith)  Fix output to lights incorrect for grouped universes
+   -- bug (keith)  Some fixes for text effect
+   -- bug (keith)  Fix value curves not resetting on some effects
+   -- bug (keith)  Fix falcon upload serial validation incorrect
+   -- bug (keith)  Fix screen wont update after exporting preview to video
+   -- bug (keith)  Fix some number pad keys dont work
+   -- enh (keith)  Consolidate render cache folders
+ -- Chris Debenham <chris@adebenham.com>  Thu, 6 Sep 2018 12:00:00 +1000
+
 xlights (2018.31) bionic; urgency=medium
    -- bug (dkulp)  Fix performance regression for "Sparkles reflect music"
    -- bug (gil)    Fix timings not snapping when not zoomed in. Fixes #1221.
