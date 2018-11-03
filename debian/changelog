@@ -1,3 +1,51 @@
+xlights (2018.41) bionic; urgency=medium
+   -- enh (scott)  Added Cut, Copy, Paste, Zoom In/Out, Background Image, and Model Select to the Node Select Dialog
+   -- enh (keith)  Add music trigger fade value curve
+   -- enh (keith)  Improve the aparent randomness of random playlists
+   -- enh (keith)  Add a video effect duration mode that ends transparent rather than blue
+   -- bug (keith)  Protect user from causing crash by taking actions while models download
+   -- bug (keith)  Fix next time shows never if last day is today and show starts later.
+   -- bug (keith)  Fix some colour anomalies in LMS import due to invalid effects.
+   -- bug (keith)  Fix crash checking falcon firmware version
+   -- bug (keith)  Fix bulk controller upload buttons not visible if you have lots of controllers   
+ -- Chris Debenham <chris@adebenham.com>  Fri, 2 Nov 2018 12:00:00 +1000
+
+xlights (2018.40) bionic; urgency=medium
+   -- enh (keith)  Allow user to change row header text colour and fix time/frame rate text unreadable on OSX
+   -- enh (keith)  Increase maximum DMX channels
+   -- bug (keith)  Fix crash caused by exporting small model ESEQ files
+   -- bug (keith)  Add tracing of frames intervals that are twice as long as they should be
+   -- bug (keith)  Try again to fix OSX schedule time issues
+   -- bug (keith)  Fix crash creating LCB files
+   -- bug (keith)  More fixes to rendered faces
+   -- bug (keith)  Fixes to Falcon F4 upload
+ -- Chris Debenham <chris@adebenham.com>  Mon, 29 Oct 2018 12:00:00 +1000
+
+xlights (2018.39) bionic; urgency=medium
+   -- enh (keith)  Add Not So Big Buttons plugin to xschedule
+   -- bug (keith)  Fix face effect not rendering the mouth
+ -- Chris Debenham <chris@adebenham.com>  Sat, 27 Oct 2018 12:00:00 +1000
+
+xlights (2018.38) bionic; urgency=medium
+   -- enh (gil)    Resize FSEQ data during save if sequence timing has changed.
+   -- bug (dkulp)  Fix dimming/gamma curves on single channel models
+   -- enh (keith)  Add music value curves that track music intensity
+   -- enh (keith)  #1297 Add a to text playlist item ability to count down a number of seconds
+   -- bug (keith)  #1299 Fix start channel cancel button does not work
+   -- bug (keith)  #1300 Crash on initialising single channel spinner model
+   -- bug (keith)  #1287/#1288 Fix controller connection not updating into model list
+   -- bug (keith)  #1289 xschedule eseq off by one problem
+   -- enh (keith)  xCapture allow user to set frame time to specific MS
+   -- enh (keith)  Add bulk edit of filename and pathname on picture, video and glediator effect file picker
+   -- enh (keith)  Add xSchedule API to "Clear background playlist"
+   -- bug (keith)  #1286 switching musical sequence to animation does not completely remove audio
+   -- bug (keith)  Fix xSchedule looks like it needs saving immediately after it is loaded
+   -- enh (keith)  Add to model list right click menu ability to remove all empty groups
+   -- bug (keith)  Fix crash when deleting models on layout panel
+   -- bug (keith)  Address a bunch of issues with the rendered face effect not behaving like other face effects
+   -- bug (keith)  Address start/end schedule time not saving correctly on OSX
+ -- Chris Debenham <chris@adebenham.com>  Fri, 26 Oct 2018 12:00:00 +1000
+
 xlights (2018.37) bionic; urgency=medium
    -- bug (keith)  Redevelop EDM RDS playlistitem to use radiotext
    -- bug (keith)  Face and state effect dont recognise backward ranges
