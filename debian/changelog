@@ -1,3 +1,18 @@
+xlights (2018.45) bionic; urgency=medium
+   -- bug (dkulp)  FPP Connect - failure to unzip fseq if name contains certain special characters
+   -- enh (dkulp)  FPP Connect via HTTP/FTP - option to create/append to playlist whatever is uploaded
+   -- enh (dkulp)  Model controller connection can store various properties including gamma/direction/RGB order/brightness/null pixels which is also used for the FPP
+                   controller upload to configure those strings if set
+   -- bug (dkulp)  FPP controller upload DMX channels are off by 1
+   -- bug (dkulp)  ModelPreview window not refreshing if model not selected
+   -- enh (keith)  Prevent model chains from breaking when chained models are deleted
+   -- bug (keith)  Fix xschedule pauses when web connection interupted
+   -- enh (keith)  Make fixed timing tracks more obvious and make them convertable to unfixed
+   -- enh (keith)  Adjust xSchedule FPP sync packets to match v2.x new send pattern
+   -- bug (keith)  Fix deleting a model containing a submodel which is in a group generates non-sensical errors and removes all the submodels from the group.
+   -- bug (keith)  Fix polyline arc last segment doesnt arc
+ -- Chris Debenham <chris@adebenham.com>  Thu, 15 Nov 2018 12:00:00 +1000
+
 xlights (2018.44) bionic; urgency=high
    -- bug (keith)  Fix a crash when deleting models
    -- bug (keith)  Fix value curve dialog text entry not working correctly #1314
