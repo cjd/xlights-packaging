@@ -1,3 +1,50 @@
+xlights (2018.50) bionic; urgency=medium
+   -- bug (scott)  Fix Submodel Dialog missing buttons and scaling issues
+   -- enh (scott)  FPP Connect - save/load previous file selections on dialog open and close
+   -- bug (keith)  Fix test dialog cant multiselect to change testing state
+   -- bug (keith)  More work on xSchedule audio load failure ... maybe a fix
+   -- bug (keith)  Fix some more old value curve errors
+   -- bug (keith)  Fix xl Font move left and invalid chars not rendering correctly. This may impact some sequences if you have been working around this bug
+   -- bug (keith)  Add xSchedule performance logging which can be turned on
+   -- enh (keith)  Add optional parallel output of data in xschedule
+   -- enh (keith)  Add ability to skip media upload to FPP
+   -- bug (keith)  Fix xSchedule crash if you schedule a stop command
+   -- bug (keith)  Fixes for node effects on dmx models and some effect selection issues. Also fixes some LMS import problems
+   -- enh (keith)  Allow opt out of using gzip for FPP upload
+ -- Chris Debenham <chris@adebenham.com>  Sat, 1 Dec 2018 12:00:00 +1000
+
+xlights (2018.49) bionic; urgency=medium
+   -- bug (keith)  Maybe one fix for xSchedule crashes loading audio + lots of extra logging to try and work out why it crashes
+   -- bug (keith)  Fix model download progress dialog does not hide
+   -- bug (keith)  Fix cant delete an every step step
+ -- Chris Debenham <chris@adebenham.com>  Tue, 27 Nov 2018 12:00:00 +1000
+
+xlights (2018.48) bionic; urgency=medium
+   -- bug (keith)  Add extra logging to try to identify xSchedule audio load crash
+   -- bug (keith)  Fix bars effect expand on large model loops around
+   -- bug (keith)  Fix single strand skips renders in correctly on odd width models
+   -- bug (keith)  Fix vendor model download failing
+   -- bug (keith)  Fix playlist loops loops once more than it should
+   -- bug (keith)  Fix indiv start channels default incorrectly if using #ip:u:sc
+   -- bug (keith)  Fix make view master crashes 
+   -- bug (keith)  Fix output processor colour order not saving
+   -- bug (keith)  Fix test model channel for dis-contiguous channel model is incorrect: 
+   -- bug (keith)  Fix crash in submodel dialog
+   -- enh (keith)  Add ability to define a step in a playlist that plays as part of every step in the playlist
+ -- Chris Debenham <chris@adebenham.com>  Mon, 26 Nov 2018 12:00:00 +1000
+
+xlights (2018.47) bionic; urgency=medium
+   -- bug (keith)  Fix a crash passing in an xml file to xlights which is not in the show folder
+   -- bug (keith)  Ensure a city is always set
+   -- bug (keith)  Fix a possible crash on sequence close
+   -- bug (keith)  Fix schedule hang if pre-load audio and audio is shorter than fseq
+   -- bug (keith)  Only reverse offset of a value curve if the offset is not zero
+   -- bug (keith)  Allow default FPP version to be set for when FPP Connect cant determine the version
+   -- enh (keith)  Add the ability to dim a range of channels as a playlist item
+   -- enh (keith)  Add a tool to cleanup file locations ... bringing them all under the show folder
+   -- enh (keith)  Display the range of controller outputs in the model list
+ -- Chris Debenham <chris@adebenham.com>  Thu, 22 Nov 2018 12:00:00 +1000
+
 xlights (2018.46) bionic; urgency=medium
    -- bug (dkulp)  Fix node layout crash for custom models
    -- bug (dkulp)  Add some fallbacks for FPP upload if UI security is on
