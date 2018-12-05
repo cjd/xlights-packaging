@@ -1,3 +1,29 @@
+xlights (2018.52) bionic; urgency=high
+   *** CAUTION: This release on windows/linux include some changes which have a small risk of leading to xlights/xschedule hanging so please test before using in your show. If you have issues it is safe to go back to a prior release.
+   -- bug (keith)  Fix some memory leaks in xlights/xschedule - this also may help with some lag
+   -- bug (keith)  Fix prevent 32bit from trying to load render cache if it is there
+   -- bug (keith)  Fix some xSchedule options not applied until restart
+   -- bug (keith)  Fix absolute model start channels off by one in model list
+   -- enh (keith)  Add "Close xSchedule" api
+   -- enh (keith)  Add "Add n Seconds To Current Step Position" api
+   -- enh (keith)  Add option in xSchedule to continue to try to connect outputs that fail to connect ... and when it fails do it silently
+   -- enh (keith)  Add a state event to xSchedule which fires when it starts, lights go on, lights go off and when an output fails to start
+   -- enh (keith)  Force LOR outputs to occasionally output a channel even if it hasnt changed
+ -- Chris Debenham <chris@adebenham.com>  Wed, 5 Dec 2018 12:00:00 +1000
+
+xlights (2018.51) bionic; urgency=medium
+   -- bug (keith)  More work on xSchedule audio load failure ... maybe a fix
+   -- bug (keith)  Reduce frequency of model property reload
+   -- bug (keith)  Keep sort in models when things are changed
+   -- bug (keith)  Speed up virtual matrices by reducing unnecessary work
+   -- bug (keith)  Default xSchedule to more efficient scaling algorithm
+   -- bug (keith)  Fix chained model start channel displayed off by 1
+   -- bug (chrisP) Fix FPP models file formatting error
+   -- bug (keith)  Fix FPP sync when xSchedule is the remote
+   -- bug (keith)  Fix face node select node saving
+   -- enh (keith)  Add render cancel to keybindings
+ -- Chris Debenham <chris@adebenham.com>  Mon, 3 Dec 2018 12:00:00 +1000
+
 xlights (2018.50) bionic; urgency=medium
    -- bug (scott)  Fix Submodel Dialog missing buttons and scaling issues
    -- enh (scott)  FPP Connect - save/load previous file selections on dialog open and close
