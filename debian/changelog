@@ -1,3 +1,108 @@
+xlights (2019.06) bionic; urgency=medium
+   -- bug (dkulp)   Fix sub-buffers ending up with two rows/columns identical.  Fixes #1421
+   -- bug (dkulp)   Fix FPP connect dialog not working correctly on windows
+   -- bug (keith)   Fix 2D pan Y is reversed
+   -- bug (keith)   Fix model move in 2D not working in Y direction
+   -- bug (keith)   Fix grid axis not drawing
+   -- bug (keith)   Fix xSchedule not reading FSEQ correctly
+   -- enh (keith)   Make model move accelerate when using keyboard when repeatedly moving models using keyboard
+   -- enh (keith)   Add sphere model
+   -- enh (keith)   Increase maximum hollow size on spinner
+ -- Chris Debenham <chris@adebenham.com>  Sat, 19 Jan 2019 12:00:00 +1000
+
+xlights (2019.05) bionic; urgency=medium
+   -- bug (keith)   Fix controller upload picks up USB outputs
+   -- bug (keith)   Fix #1418 effects dont work correctly on strands
+   -- bug (keith)   Fix #1411 moving a model group containg a submodel in 3D crashes
+   -- bug (keith)   Fix #1400 drawing an effect reactivate inactive objects
+   -- bug (keith)   Fix FSEQ files not loading correctly
+   -- bug (keith)   Fix check sequence overlapping channel false positive if first model node is not the lowest channel
+   -- bug (keith)   Fix node layout dialog for cube model
+   -- bug (keith)   Fix submodel generation on cube models
+   -- bug (keith)   Fix strand and node names should not be duplicated on a model
+   -- enh (jhinkle) Add Easylights controller upload
+ -- Chris Debenham <chris@adebenham.com>  Tue, 15 Jan 2019 12:00:00 +1000
+
+xlights (2019.04) bionic; urgency=medium
+   -- enh (gil)    Add pan based on viewing angle in 3d
+   -- enh (dkulp)  Implement advanced FPP connect dialog including Discovery of FPP instances, Instance by instance settings controls over what is uploaded, Sparse FSEQ uploading, Compressed FSEQs
+   -- enh (scott)  Add keyboard shortcuts to sequence save dialog
+   -- enh (keith)  Add cube model
+   -- enh (keith)  Add value curve flipping
+   -- enh (keith)  Include 3d objects in package sequence and cleanup file locations
+   -- bug (keith)  Fix multistring custom model start channel
+   -- bug (keith)  Fix xSchedule test settings dialog does not open
+   -- bug (keith)  Fix anomalies when creating a sequence with a specified timing track
+ -- Chris Debenham <chris@adebenham.com>  Fri, 11 Jan 2019 12:00:00 +1000
+
+xlights (2019.03) bionic; urgency=medium
+   -- bug (scott)  Dont persist some not useful FPP connect settings
+   -- bug (dkulp)  Fix xLights does not handle system audio device change on OSX
+   -- bug (dkulp)  Remove non-functioning scroll bars on layout
+   -- bug (keith)  Fix model group per model default is not rendering correctly
+   -- bug (keith)  Fix cant rename objects
+   -- bug (keith)  Fix xSchedule not reading FSEQ correctly
+   -- bug (keith)  Fix erroneous check sequence warning if a group is in All Previews
+   -- bug (keith)  Fix some problems with lyric breakdown and improve user experience while dictionaries load
+   -- enh (keith)  Exclude faces not used in a sequence from the package sequence file
+   -- enh (keith)  Add a 2D value curve generator
+ -- Chris Debenham <chris@adebenham.com>  Sun, 6 Jan 2019 12:00:00 +1000
+
+xlights (2019.02) bionic; urgency=medium
+   -- enh (keith)  Add xSchedule test mode
+   -- bug (keith)  Fix 3D undo crash and loss of objects
+   -- bug (keith)  More keybindings work to try to isolate the problem
+   -- bug (keith)  Fix cant change model to single channel
+   -- bug (scott)  Timing track rename does not show you current name
+ -- Chris Debenham <chris@adebenham.com>  Wed, 2 Jan 2019 12:00:00 +1000
+
+xlights (2019.01) bionic; urgency=medium
+   -- enh (gil)    Add 3d
+   -- enh (keith)  Test for out of order universes on a controller in check sequence
+   -- bug (dan)    Fix more issues with FSEQ saving and loading
+ -- Chris Debenham <chris@adebenham.com> Tue, 1 Jan 2019 12:00:00 +1000
+
+xlights (2018.59) bionic; urgency=medium
+   -- bug (keith)  Fix Single colour models not working correctly
+ -- Chris Debenham <chris@adebenham.com>  Sun, 30 Dec 2018 12:00:00 +1000
+
+xlights (2018.58) bionic; urgency=medium
+   -- bug (keith)  Fix FSEQ files not being saved with correct format
+ -- Chris Debenham <chris@adebenham.com>  Fri, 28 Dec 2018 12:00:00 +1000
+
+xlights (2018.57) bionic; urgency=medium
+   -- enh (keith)  Add full support for model connection properties for Falcon controllers. Create virtual strings 
+                   where necessary. Virtual strings will now be deleted on ports we upload to.
+   -- enh (keith)  Add support for multi-string custom models
+   -- bug (keith)  Fix change in model properties does not always update other models start channels in the model list
+   -- bug (keith)  Fix display of @ model start channels
+ -- Chris Debenham <chris@adebenham.com>  Thu, 27 Dec 2018 12:00:00 +1000
+
+xlights (2018.56) bionic; urgency=medium
+   -- bug (keith)  Fix LOR import so dmx intensity and intensity come in correctly
+   -- bug (keith)  Fix artnet not outputting
+   -- enh (keith)  Add visual indication of slowness to the xSchedule UI
+   -- enh (keith)  Add control over what happens when a remote xSchedule gets told to stop playing a sequence ... blank or not blank lights
+   -- enh (scott)  Added Rotate 90 option to Custom Model Dialog
+ -- Chris Debenham <chris@adebenham.com>  Sun, 16 Dec 2018 12:00:00 +1000
+
+xlights (2018.55) bionic; urgency=medium
+   -- bug (keith)  Fix scheduler crash that was way more common than I thought it would be [windows + linux only]
+ -- Chris Debenham <chris@adebenham.com>  Mon, 10 Dec 2018 12:00:00 +1000
+
+xlights (2018.54) bionic; urgency=medium
+   -- bug (keith)  Fix scheduler timer does not start correctly when xSchedule starts [windows + linux only]
+ -- Chris Debenham <chris@adebenham.com>  Sun, 9 Dec 2018 12:00:00 +1000
+
+xlights (2018.53) bionic; urgency=medium
+   -- bug (keith)  Fix test dialog hangs on exit
+   -- bug (keith)  Controller property changes dont update immediately in model list
+   -- bug (keith)  When xSchedule is a FPP remote all sequences play as if they were 50ms timing
+   -- bug (keith)  When xSchedule is FPP master it sends more sync packets than it should
+   -- bug (keith)  Fix xSchedule hang - hard to be certain i got all causes but i likely did.
+   -- bug (keith)  Fix xSchedule corrupts sequence file name leading to skipping of step - possible fix.  This may also address looping problems but it is hard to be sure as I dont have those problems.
+ -- Chris Debenham <chris@adebenham.com>  Sat, 8 Dec 2018 12:00:00 +1000
+
 xlights (2018.52) bionic; urgency=high
    *** CAUTION: This release on windows/linux include some changes which have a small risk of leading to xlights/xschedule hanging so please test before using in your show. If you have issues it is safe to go back to a prior release.
    -- bug (keith)  Fix some memory leaks in xlights/xschedule - this also may help with some lag
