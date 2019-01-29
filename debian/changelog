@@ -1,3 +1,27 @@
+xlights (2019.07) bionic; urgency=medium
+   -- enh (tyler)   Add inside/outside ration to star model
+   -- enh (dkulp)   Add zoom gesture to Preview Panels.
+   -- bug (dkulp)   OpenGL 2.1 - texture/image brightness was always 100%
+   -- enh (dkulp)   Add Mac TouchPad/MagicMouse "wheel" event handling to Preview Panels.
+   -- enh (dkulp)   OpenGL 3.3 only - pass mesh data to Video memory once, share data - much faster display
+   -- enh (dkulp)   Share mesh textures across contexts (reduces memory, faster loads)
+   -- bug (gil)     Fix PolyLine crash when older version 1 positioning is upgraded.  Fixes #1436.
+   -- enh (keith)   Add 3D Custom Model
+   -- enh (keith)   Make locked models more obvious in 3D
+   -- enh (keith)   Allow cube and sphere to be exported as 3D custom models
+   -- enh (keith)   Make green box on 2D layout optional
+   -- enh (keith)   Add right click reset camera position to house preview and layout
+   -- enh (keith)   Update J1SYS P2 upload to support more model configurations
+   -- enh (keith)   Add a latency setting when running xSchedule in remote to adjust for network delays
+   -- enh (keith)   Add a jitter setting when running xSchedule in remote to reduce adjustments not required due to small variations in packet delivery time
+   -- enh (keith)   Add bulk edit to effect type
+   -- enh (keith)   Add support for \n and \t in playlist item text
+   -- bug (keith)   Fix crash changing number of lights on single channel polyline
+   -- bug (keith)   Fix z coordinates on a polyline when typed dont work
+   -- bug (keith)   Fix issues with switching between effects using dropdown on effect settings dialog
+   -- bug (keith)   Fix issues with Artnet & MIDI timecode when in remote mode
+ -- Chris Debenham <chris@adebenham.com>  Sun, 27 Jan 2019 12:00:00 +1000
+
 xlights (2019.06) bionic; urgency=medium
    -- bug (dkulp)   Fix sub-buffers ending up with two rows/columns identical.  Fixes #1421
    -- bug (dkulp)   Fix FPP connect dialog not working correctly on windows
