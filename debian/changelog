@@ -1,3 +1,7 @@
+xlights (2019.07.1) bionic; urgency=medium
+   -- bug (debenham) Fix wxwidgets build
+ -- Chris Debenham <chris@adebenham.com>  Sun, 27 Jan 2019 12:00:00 +1000
+
 xlights (2019.07) bionic; urgency=medium
    -- enh (tyler)   Add inside/outside ration to star model
    -- enh (dkulp)   Add zoom gesture to Preview Panels.
