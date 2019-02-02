@@ -1,3 +1,14 @@
+xlights (2019.09) bionic; urgency=medium
+   -- enh (keith)   Add movement to shapes effect
+   -- enh (keith)   Add tool for applying reaper or xAudio edits to one or more audio files and generate a new audio file
+   -- enh (keith)   Refactor the fireworks effect including new settings and new value curves
+   -- enh (keith)   Add gain to VUMeter
+   -- enh (keith)   Add an inverted music value curve
+   -- enh (keith)   Add gain to music value curve
+   -- enh (keith)   Render cache effects which have blur or rotation applied
+   -- enh (dkulp)   Update OpenGL 1.1/2.1 render routines to peform better with Mesh objects
+ -- Chris Debenham <chris@adebenham.com>  Sat, 2 Feb 2019 12:00:00 +1000
+
 xlights (2019.08) bionic; urgency=medium
    -- enh (keith)   Add to check sequence the listing of faces, states and view points a sequence relies upon to help preparing for imports
    -- enh (keith)   In layout mode adapt the axis of movement using the keyboard based on camera position
