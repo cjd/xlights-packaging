@@ -1,3 +1,90 @@
+xlights (2019.15) bionic; urgency=medium
+   -- bug (keith)   Fix rendering per preview from a 3D camera ... it just wasnt right This may change how some rendering looks. I am happy to look into any issues but I will only change it again if it is clearly wrong.
+   -- bug (keith)   Fix crash rendering per model per preview from 3D camera
+   -- bug (keith)   Fix/change behaviour when inserting/deleting layers while rendering. Abort the rendering to take the action
+   -- bug (keith)   Fix SMS tool sends too many rejection messages
+   -- bug (keith)   Fix SMS tool displays sent messages
+   -- bug (keith)   Fix a crash when breaking down phrases with no actual words
+   -- bug (keith)   Fix lines effect value curve not disabling on reset
+   -- enh (keith)   All screen map area to be manipulated using the mouse
+   -- enh (keith)   Stop render range expansion to include immediately prior and immediately following effect There is a small chance this will cause user to need to click render all in some scenarios. Please report and provide sample sequences if this happens
+   -- enh (keith)   Include a default SMS work whitelist and blacklist
+   -- enh (keith)   Add a frame audio waveform to the VUMeter
+ -- Chris Debenham <chris@adebenham.com>  Sat, 2 Mar 2019 12:00:00 +1000
+
+xlights (2019.14) bionic; urgency=medium
+   -- bug (dkulp)   Fix bug where 2d background image not honoring center is 0 setting
+   -- bug (keith)   Fix bandwith.com cant send SMS
+   -- bug (keith)   Fix accumulating snowflake does not accumulate if flake count value curve is used
+   -- bug (keith)   Fix DMX effect on a per model group does not work as expected
+   -- bug (keith)   Dont reset canvas mode when randomising effect settings
+   -- bug (keith)   Fix crash when using large triangles in Kaleidoscope on some models
+   -- bug (keith)   Fix xSchedule cant set text on a text item playing in every step
+   -- enh (keith)   Add logarithmic x axis to spectragram
+   -- enh (keith)   Add line spectragram to vu meter
+   -- enh (keith)   Add circle line spectragram to vu meter
+   -- enh (keith)   Add check sequence warning if firework is to fire with timing track but none is selcected
+ -- Chris Debenham <chris@adebenham.com>  Sat, 23 Feb 2019 12:00:00 +1000
+
+xlights (2019.13) bionic; urgency=medium
+   -- enh (keith)   Add the kaleidoscope effect
+   -- enh (keith)   Add voip.ms support to SMS Daemon
+   -- enh (keith)   Add Twilio support to SMS Daemon
+   -- enh (keith)   Add ctrl/ctrl-shift constraints to subbuffer corner moves
+   -- enh (keith)   Add ctrl/ctrl-shift constraints to morph assist panel corner moves
+   -- enh (keith)   Allow fireworks x/y location to work independently. If only one is set only that axis is constrained
+   -- bug (dkulp)   Fix an occasional crash when loading a mesh
+ -- Chris Debenham <chris@adebenham.com>  Thu, 21 Feb 2019 12:00:00 +1000
+
+xlights (2019.12) bionic; urgency=medium
+   -- enh (scott)   Timing Tracks will persist the collapsed flag
+   -- enh (scott)   Added Subfolder Selection to Batch Render Dialog
+   -- enh (keith)   Add lines effect
+   -- enh (keith)   Make hold colour an option on shapes effect
+   -- enh (keith)   Add xSMSDaemon ... a SMS bridge between bandwidth.com and xschedule
+   -- enh (keith)   Allow shuffle to be set on a playlist - allows a background shuffled playlist
+   -- enh (keith)   Rework morph effect assist gestures to be more like the subbuffer panel
+   -- enh (keith)   Add palettes to the install
+   -- bug (keith)   Fix shapes effect does not support all emoji characters
+   -- bug (keith)   Fix xSchedule text wont display emojis
+   -- bug (keith)   Fix some face effect settings dont reset when another effect is chosen
+   -- bug (keith)   A bunch of tweaks to xSchedule remote mode
+   -- bug (keith)   Fix fireworks fire on music/timing marks still fires randomly as well
+   -- bug (keith)   Fix crash when rightclicking on box handle of polyline and trying to delete node
+   -- bug (keith)   Fix cant open xml from command line
+   -- bug (fbond)   Fix cant rescan midi in xSchedule event setup
+   -- bug (dkulp)   Fix transparent image display problem on layout
+   -- bug (dkulp)   Fix load issue on vixen eseq files
+ -- Chris Debenham <chris@adebenham.com>  Sat, 16 Feb 2019 12:00:00 +1000
+
+xlights (2019.11) bionic; urgency=medium
+   -- bug (scott)   Fixed Custom Model Dialog Shrink Crash
+   -- bug (keith)   Fix 3d obj with space dont load
+   -- bug (keith)   Fix custom models dont draw at z=0 when first created
+   -- enh (keith)   Add shift move to morph effect assist
+   -- enh (keith)   Upgrade pixlite controller upload for the 16 Long Range
+   -- enh (keith)   Allow material files to be left in a subfolder under obj file location as long as it is referenced in the material file
+   -- enh (keith)   Add bulk edit to the morph swap points button
+   -- enh (keith)   Make the row header resizable
+   -- enh (smorgan) For timecode slightly outside jitter limit nudge it back into time
+   -- enh (smorgan) Add support for E131 prioritisation
+ -- Chris Debenham <chris@adebenham.com>  Sat, 9 Feb 2019 12:00:00 +1000
+
+xlights (2019.10) bionic; urgency=medium
+   -- enh (keith)   Add an <ALL> state to state effect that activates all states. Also recognise * in timing track as well
+   -- bug (keith)   Fix custom models load with zero layers if depth not set correctly in the file
+   -- bug (keith)   Fix falcon upload with virtual strings miscalculates number of nodes on a port
+   -- enh (keith)   If models on a port are not using contiguous channels put them on virtual strings
+   -- enh (keith)   Add an xSchedule API to change/reload showfolder
+   -- enh (keith)   Include xmap files in the backup
+   -- enh (keith)   Increase maximum lines read from file to 20 for text effect
+   -- bug (keith)   Fix disabled effect options with valuecurves dont disable correctly
+   -- bug (keith)   Fix shape effect movement defaults to on when loading old sequences
+   -- enh (gil)     Add option to convert tool for creating LEDBlinky animation files.
+   -- bug (kevin)   Fix model/row copy effects from one sequence and pasting in another. Fixes #1450
+   -- enh (kevin)   Enable timeline icons for fan and galaxy effects
+ -- Chris Debenham <chris@adebenham.com>  Tue, 5 Feb 2019 12:00:00 +1000
+
 xlights (2019.09) bionic; urgency=medium
    -- enh (keith)   Add movement to shapes effect
    -- enh (keith)   Add tool for applying reaper or xAudio edits to one or more audio files and generate a new audio file
