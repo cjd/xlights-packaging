@@ -1,3 +1,7 @@
+xlights (2019.41.1) unstable; urgency=low
+  * Build fix attempt
+ -- Chris Debenham <chris@adebenham.com>  Sun, 18 Aug 2019 20:58:26 +1000
+
 xlights (2019.41) unstable; urgency=low
 
   * (Keith Westley) 2019.41
